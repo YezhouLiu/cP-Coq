@@ -42,9 +42,8 @@ Definition EqualVar (v1 v2: variable) : Prop :=
 (*only used for sorting*)
 Fixpoint LessThanAtomBagB (b1 b2: bag atom) : bool :=
   match b1, b2 with
-  | nil, nil => false
+  | _, nil => false
   | nil, _ => true
-  | h1 :: t1, nil => false
   | h1 :: t1, h2 :: t2 =>
     if EqualAtomB h1 h2 then LessThanAtomBagB t1 t2
     else LessThanAtomB h1 h2
@@ -83,9 +82,8 @@ Definition EqualTermBag (m1 m2: g_multiset): Prop :=
 (*"this 'less than' relationship is only defined to sort terms in order, logically there is no less or greater relationship between terms"*)
 Fixpoint LessThanTermBagComp (m1 m2: g_multiset) (comparator_less: TermComparatorType) : bool :=
   match m1, m2 with
-  | nil, nil => false
+  | _, nil => false
   | nil, _ => true
-  | h1 :: t1, nil => false
   | h1 :: t1, h2 :: t2 =>
     if EqualTermB h1 h2 then LessThanTermBagComp t1 t2 comparator_less
     else comparator_less h1 h2
