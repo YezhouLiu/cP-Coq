@@ -1,0 +1,62 @@
+DIGEST 15671a3a25e718633c73e471567b3c2a
+FCP.cPSystems
+R31:44 Coq.Lists.List <> <> lib
+R55:67 Coq.Lists.List ListNotations <> modtype
+def 82:84 <> bag
+R89:92 Coq.Init.Datatypes <> list ind
+ind 106:109 <> atom
+constr 118:118 <> a
+constr 122:122 <> b
+constr 126:126 <> c
+constr 130:130 <> d
+constr 134:134 <> e
+constr 138:138 <> f
+constr 142:142 <> g
+constr 146:146 <> h
+ind 197:204 <> variable
+constr 213:213 <> U
+constr 217:217 <> V
+constr 221:221 <> W
+constr 225:225 <> X
+constr 229:229 <> Y
+constr 233:233 <> Z
+def 249:255 <> functor
+R260:263 CP.cPSystems <> atom ind
+ind 277:282 <> g_term
+constr 292:294 <> Num
+constr 310:313 <> Atom
+constr 330:333 <> Term
+R301:303 Coq.Init.Datatypes <> nat ind
+binder 297:298 <> n1:7
+R320:323 CP.cPSystems <> atom ind
+binder 316:317 <> a1:8
+R344:350 CP.cPSystems <> functor def
+binder 336:340 <> label:9
+R358:360 CP.cPSystems <> bag def
+R362:367 CP.cPSystems <> g_term:5 ind
+binder 354:355 <> b1:10
+def 383:392 <> g_multiset
+R397:399 CP.cPSystems <> bag def
+R401:406 CP.cPSystems <> g_term ind
+ind 420:424 <> state
+constr 429:429 <> s
+R436:438 Coq.Init.Datatypes <> nat ind
+binder 432:432 <> n:13
+ind 480:492 <> cPsystem_conf
+constr 497:502 <> cP_sys
+R509:513 CP.cPSystems <> state ind
+binder 505:506 <> s1:16
+R524:533 CP.cPSystems <> g_multiset def
+binder 517:521 <> terms:17
+def 549:555 <> cP_rule
+R580:583 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R567:579 CP.cPSystems <> cPsystem_conf ind
+R584:596 CP.cPSystems <> cPsystem_conf ind
+def 610:619 <> cP_ruleset
+R630:633 Coq.Init.Datatypes <> list ind
+R635:641 CP.cPSystems <> cP_rule def
+R669:672 CP.cPSystems <> Term constr
+R676:676 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R682:682 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R677:679 CP.cPSystems <> Num constr
+not 654:654 <> :::x_'@num'_x

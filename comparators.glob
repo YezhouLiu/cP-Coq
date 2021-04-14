@@ -1,0 +1,475 @@
+DIGEST 67c5f6edaf262be8035e24fc09982750
+FCP.comparators
+R15:26 Coq.Init.Nat <> <> lib
+R44:58 Coq.Arith.EqNat <> <> lib
+R84:92 CP.cPSystems <> <> lib
+R110:123 Coq.Lists.List <> <> lib
+R125:137 Coq.Bool.Bool <> <> lib
+R197:200 CP.cPSystems <> atom ind
+R223:230 CP.cPSystems <> variable ind
+R253:256 Coq.Init.Datatypes <> list ind
+R279:283 CP.cPSystems <> state ind
+def 324:336 <> LessThanAtomB
+R346:349 CP.cPSystems <> atom ind
+binder 339:340 <> a1:1
+binder 342:343 <> a2:2
+R354:357 Coq.Init.Datatypes <> bool ind
+R374:375 CP.comparators <> a2:2 var
+R370:371 CP.comparators <> a1:1 var
+R389:389 CP.cPSystems <> a constr
+R394:398 Coq.Init.Datatypes <> false constr
+R404:404 CP.cPSystems <> a constr
+R412:415 Coq.Init.Datatypes <> true constr
+R424:424 CP.cPSystems <> b constr
+R429:433 Coq.Init.Datatypes <> false constr
+R439:439 CP.cPSystems <> b constr
+R447:450 Coq.Init.Datatypes <> true constr
+R459:459 CP.cPSystems <> c constr
+R464:468 Coq.Init.Datatypes <> false constr
+R474:474 CP.cPSystems <> c constr
+R482:485 Coq.Init.Datatypes <> true constr
+R494:494 CP.cPSystems <> d constr
+R499:503 Coq.Init.Datatypes <> false constr
+R509:509 CP.cPSystems <> d constr
+R517:520 Coq.Init.Datatypes <> true constr
+R529:529 CP.cPSystems <> e constr
+R534:538 Coq.Init.Datatypes <> false constr
+R544:544 CP.cPSystems <> e constr
+R552:555 Coq.Init.Datatypes <> true constr
+R564:564 CP.cPSystems <> f constr
+R569:573 Coq.Init.Datatypes <> false constr
+R579:579 CP.cPSystems <> f constr
+R587:590 Coq.Init.Datatypes <> true constr
+R599:599 CP.cPSystems <> g constr
+R604:608 Coq.Init.Datatypes <> false constr
+R614:614 CP.cPSystems <> g constr
+R622:625 Coq.Init.Datatypes <> true constr
+R634:634 CP.cPSystems <> h constr
+R639:643 Coq.Init.Datatypes <> false constr
+def 664:673 <> EqualAtomB
+R683:686 CP.cPSystems <> atom ind
+binder 676:677 <> a1:5
+binder 679:680 <> a2:6
+R691:694 Coq.Init.Datatypes <> bool ind
+R701:708 CP.comparators <> atom_beq scheme
+R710:711 CP.comparators <> a1:5 var
+R713:714 CP.comparators <> a2:6 var
+def 728:736 <> EqualAtom
+R746:749 CP.cPSystems <> atom ind
+binder 739:740 <> a1:7
+binder 742:743 <> a2:8
+R766:768 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R764:765 CP.comparators <> a1:7 var
+R769:770 CP.comparators <> a2:8 var
+def 821:829 <> EqualVarB
+R839:846 CP.cPSystems <> variable ind
+binder 832:833 <> v1:9
+binder 835:836 <> v2:10
+R851:854 Coq.Init.Datatypes <> bool ind
+R861:872 CP.comparators <> variable_beq scheme
+R874:875 CP.comparators <> v1:9 var
+R877:878 CP.comparators <> v2:10 var
+def 892:899 <> EqualVar
+R909:916 CP.cPSystems <> variable ind
+binder 902:903 <> v1:11
+binder 905:906 <> v2:12
+R933:935 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R931:932 CP.comparators <> v1:11 var
+R936:937 CP.comparators <> v2:12 var
+def 976:991 <> LessThanAtomBagB
+R1001:1003 CP.cPSystems <> bag def
+R1005:1008 CP.cPSystems <> atom ind
+binder 994:995 <> b1:13
+binder 997:998 <> b2:14
+R1013:1016 Coq.Init.Datatypes <> bool ind
+R1033:1034 CP.comparators <> b2:14 var
+R1029:1030 CP.comparators <> b1:13 var
+R1048:1050 Coq.Init.Datatypes <> nil constr
+R1055:1059 Coq.Init.Datatypes <> false constr
+R1065:1067 Coq.Init.Datatypes <> nil constr
+R1075:1078 Coq.Init.Datatypes <> true constr
+R1086:1089 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1096:1099 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1113:1122 CP.comparators <> EqualAtomB def
+R1167:1179 CP.comparators <> LessThanAtomB def
+R1135:1150 CP.comparators <> LessThanAtomBagB:15 def
+def 1206:1218 <> EqualAtomBagB
+R1228:1230 CP.cPSystems <> bag def
+R1232:1235 CP.cPSystems <> atom ind
+binder 1221:1222 <> b1:18
+binder 1224:1225 <> b2:19
+R1240:1243 Coq.Init.Datatypes <> bool ind
+R1250:1257 CP.comparators <> list_beq scheme
+R1259:1262 CP.cPSystems <> atom ind
+R1264:1273 CP.comparators <> EqualAtomB def
+R1275:1276 CP.comparators <> b1:18 var
+R1278:1279 CP.comparators <> b2:19 var
+def 1293:1304 <> EqualAtomBag
+R1314:1316 CP.cPSystems <> bag def
+R1318:1321 CP.cPSystems <> atom ind
+binder 1307:1308 <> b1:20
+binder 1310:1311 <> b2:21
+R1338:1340 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1336:1337 CP.comparators <> b1:20 var
+R1341:1342 CP.comparators <> b2:21 var
+def 1357:1374 <> TermComparatorType
+R1392:1395 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1386:1391 CP.cPSystems <> g_term ind
+R1402:1405 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1396:1401 CP.cPSystems <> g_term ind
+R1406:1409 Coq.Init.Datatypes <> bool ind
+def 1571:1580 <> EqualTermB
+R1590:1595 CP.cPSystems <> g_term ind
+binder 1583:1584 <> t1:22
+binder 1586:1587 <> t2:23
+R1600:1603 Coq.Init.Datatypes <> bool ind
+R1621:1622 CP.comparators <> t2:23 var
+R1617:1618 CP.comparators <> t1:22 var
+R1633:1635 CP.cPSystems <> Num constr
+R1641:1643 CP.cPSystems <> Num constr
+R1653:1656 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R1664:1666 CP.cPSystems <> Num constr
+R1676:1680 Coq.Init.Datatypes <> false constr
+R1689:1691 CP.cPSystems <> Num constr
+R1698:1702 Coq.Init.Datatypes <> false constr
+R1708:1711 CP.cPSystems <> Atom constr
+R1717:1720 CP.cPSystems <> Atom constr
+R1728:1737 CP.comparators <> EqualAtomB def
+R1749:1752 CP.cPSystems <> Atom constr
+R1762:1766 Coq.Init.Datatypes <> false constr
+R1775:1778 CP.cPSystems <> Atom constr
+R1785:1789 Coq.Init.Datatypes <> false constr
+R1795:1798 CP.cPSystems <> Term constr
+R1808:1811 CP.cPSystems <> Term constr
+R1834:1843 CP.comparators <> EqualAtomB def
+R1862:1865 Coq.Init.Datatypes <> true constr
+R1870:1877 CP.comparators <> list_beq scheme
+R1879:1884 CP.cPSystems <> g_term ind
+R1886:1895 CP.comparators <> EqualTermB:24 def
+R1911:1915 Coq.Init.Datatypes <> false constr
+R1920:1924 Coq.Init.Datatypes <> false constr
+def 1952:1960 <> EqualTerm
+R1970:1975 CP.cPSystems <> g_term ind
+binder 1963:1964 <> t1:27
+binder 1966:1967 <> t2:28
+R1992:1994 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1990:1991 CP.comparators <> t1:27 var
+R1995:1996 CP.comparators <> t2:28 var
+def 2011:2023 <> EqualTermBagB
+R2033:2042 CP.cPSystems <> g_multiset def
+binder 2026:2027 <> m1:29
+binder 2029:2030 <> m2:30
+R2046:2049 Coq.Init.Datatypes <> bool ind
+R2056:2063 CP.comparators <> list_beq scheme
+R2065:2070 CP.cPSystems <> g_term ind
+R2072:2081 CP.comparators <> EqualTermB def
+R2083:2084 CP.comparators <> m1:29 var
+R2086:2087 CP.comparators <> m2:30 var
+def 2101:2112 <> EqualTermBag
+R2122:2131 CP.cPSystems <> g_multiset def
+binder 2115:2116 <> m1:31
+binder 2118:2119 <> m2:32
+R2147:2149 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2145:2146 CP.comparators <> m1:31 var
+R2150:2151 CP.comparators <> m2:32 var
+def 2305:2323 <> LessThanTermBagComp
+R2333:2342 CP.cPSystems <> g_multiset def
+binder 2326:2327 <> m1:33
+binder 2329:2330 <> m2:34
+R2363:2380 CP.comparators <> TermComparatorType def
+binder 2346:2360 <> comparator_less:35
+R2385:2388 Coq.Init.Datatypes <> bool ind
+R2405:2406 CP.comparators <> m2:34 var
+R2401:2402 CP.comparators <> m1:33 var
+R2420:2422 Coq.Init.Datatypes <> nil constr
+R2427:2431 Coq.Init.Datatypes <> false constr
+R2437:2439 Coq.Init.Datatypes <> nil constr
+R2447:2450 Coq.Init.Datatypes <> true constr
+R2458:2461 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2468:2471 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2485:2494 CP.comparators <> EqualTermB def
+R2558:2572 CP.comparators <> comparator_less:35 var
+R2507:2525 CP.comparators <> LessThanTermBagComp:36 def
+R2533:2547 CP.comparators <> comparator_less:35 var
+def 2597:2617 <> LessThanTermWithLevel
+R2628:2630 Coq.Init.Datatypes <> nat ind
+binder 2620:2625 <> level1:39
+R2641:2646 CP.cPSystems <> g_term ind
+binder 2634:2635 <> t1:40
+binder 2637:2638 <> t2:41
+R2650:2653 Coq.Init.Datatypes <> bool ind
+R2674:2679 CP.comparators <> level1:39 var
+R2670:2671 CP.comparators <> t2:41 var
+R2666:2667 CP.comparators <> t1:40 var
+R2696:2696 Coq.Init.Datatypes <> O constr
+R2701:2705 Coq.Init.Datatypes <> false constr
+R2747:2749 CP.cPSystems <> Num constr
+R2755:2757 CP.cPSystems <> Num constr
+R2770:2773 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R2781:2783 CP.cPSystems <> Num constr
+R2796:2799 Coq.Init.Datatypes <> true constr
+R2808:2810 CP.cPSystems <> Num constr
+R2820:2824 Coq.Init.Datatypes <> false constr
+R2830:2833 CP.cPSystems <> Atom constr
+R2839:2842 CP.cPSystems <> Atom constr
+R2853:2865 CP.comparators <> LessThanAtomB def
+R2877:2880 CP.cPSystems <> Atom constr
+R2893:2896 Coq.Init.Datatypes <> true constr
+R2905:2908 CP.cPSystems <> Atom constr
+R2918:2922 Coq.Init.Datatypes <> false constr
+R2928:2931 CP.cPSystems <> Term constr
+R2941:2944 CP.cPSystems <> Term constr
+R2954:2954 Coq.Init.Datatypes <> S constr
+R2991:3003 CP.comparators <> LessThanAtomB def
+R2973:2982 CP.comparators <> EqualAtomB def
+R3022:3025 Coq.Init.Datatypes <> true constr
+R3028:3032 Coq.Init.Datatypes <> false constr
+R3037:3055 CP.comparators <> LessThanTermBagComp def
+R3066:3086 CP.comparators <> LessThanTermWithLevel:42 def
+R3098:3102 Coq.Init.Datatypes <> false constr
+R3105:3108 Coq.Init.Datatypes <> true constr
+R3113:3116 Coq.Init.Datatypes <> true constr
+R3132:3136 Coq.Init.Datatypes <> false constr
+def 3165:3173 <> cp_limit1
+def 3247:3259 <> LessThanTermB
+R3269:3274 CP.cPSystems <> g_term ind
+binder 3262:3263 <> t1:46
+binder 3265:3266 <> t2:47
+R3279:3282 Coq.Init.Datatypes <> bool ind
+R3289:3309 CP.comparators <> LessThanTermWithLevel def
+R3311:3319 CP.comparators <> cp_limit1 def
+R3321:3322 CP.comparators <> t1:46 var
+R3324:3325 CP.comparators <> t2:47 var
+def 3340:3355 <> LessThanTermBagB
+R3365:3374 CP.cPSystems <> g_multiset def
+binder 3358:3359 <> m1:48
+binder 3361:3362 <> m2:49
+R3379:3382 Coq.Init.Datatypes <> bool ind
+R3389:3407 CP.comparators <> LessThanTermBagComp def
+R3409:3410 CP.comparators <> m1:48 var
+R3412:3413 CP.comparators <> m2:49 var
+R3415:3427 CP.comparators <> LessThanTermB def
+def 3442:3452 <> EqualStateB
+R3464:3468 CP.cPSystems <> state ind
+binder 3455:3457 <> st1:50
+binder 3459:3461 <> st2:51
+R3473:3476 Coq.Init.Datatypes <> bool ind
+R3483:3491 CP.comparators <> state_beq scheme
+R3493:3495 CP.comparators <> st1:50 var
+R3497:3499 CP.comparators <> st2:51 var
+def 3513:3522 <> EqualState
+R3534:3538 CP.cPSystems <> state ind
+binder 3525:3527 <> st1:52
+binder 3529:3531 <> st2:53
+R3556:3558 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3553:3555 CP.comparators <> st1:52 var
+R3559:3561 CP.comparators <> st2:53 var
+def 3576:3602 <> EqualCPSystemConfigurationB
+R3616:3628 CP.cPSystems <> cPsystem_conf ind
+binder 3605:3608 <> sys1:54
+binder 3610:3613 <> sys2:55
+R3633:3636 Coq.Init.Datatypes <> bool ind
+R3655:3658 CP.comparators <> sys2:55 var
+R3649:3652 CP.comparators <> sys1:54 var
+R3669:3674 CP.cPSystems <> cP_sys constr
+R3683:3688 CP.cPSystems <> cP_sys constr
+R3699:3702 Coq.Init.Datatypes <> andb def
+R3725:3737 CP.comparators <> EqualTermBagB def
+R3705:3715 CP.comparators <> EqualStateB def
+def 3765:3790 <> EqualCPSystemConfiguration
+R3804:3816 CP.cPSystems <> cPsystem_conf ind
+binder 3793:3796 <> sys1:58
+binder 3798:3801 <> sys2:59
+R3835:3837 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3831:3834 CP.comparators <> sys1:58 var
+R3838:3841 CP.comparators <> sys2:59 var
+prf 3853:3874 <> TEqualAtomBCommutative
+R3892:3895 CP.cPSystems <> atom ind
+binder 3885:3886 <> a1:60
+binder 3888:3889 <> a2:61
+R3915:3917 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3899:3908 CP.comparators <> EqualAtomB def
+R3910:3911 CP.comparators <> a1:60 var
+R3913:3914 CP.comparators <> a2:61 var
+R3918:3927 CP.comparators <> EqualAtomB def
+R3929:3930 CP.comparators <> a2:61 var
+R3932:3933 CP.comparators <> a1:60 var
+prf 4009:4033 <> TEqualAtomBagBCommutative
+R4051:4053 CP.cPSystems <> bag def
+R4055:4058 CP.cPSystems <> atom ind
+binder 4044:4045 <> b1:62
+binder 4047:4048 <> b2:63
+R4081:4083 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4062:4074 CP.comparators <> EqualAtomBagB def
+R4076:4077 CP.comparators <> b1:62 var
+R4079:4080 CP.comparators <> b2:63 var
+R4084:4096 CP.comparators <> EqualAtomBagB def
+R4098:4099 CP.comparators <> b2:63 var
+R4101:4102 CP.comparators <> b1:62 var
+prf 4287:4306 <> TEqualNatCommutative
+R4324:4326 Coq.Init.Datatypes <> nat ind
+binder 4317:4318 <> n1:64
+binder 4320:4321 <> n2:65
+R4330:4330 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4339:4343 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4352:4352 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4333:4336 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R4331:4332 CP.comparators <> n1:64 var
+R4337:4338 CP.comparators <> n2:65 var
+R4346:4349 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R4344:4345 CP.comparators <> n2:65 var
+R4350:4351 CP.comparators <> n1:64 var
+prf 4445:4467 <> TEqualStateBCommutative
+R4485:4489 CP.cPSystems <> state ind
+binder 4478:4479 <> s1:66
+binder 4481:4482 <> s2:67
+R4510:4512 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4493:4503 CP.comparators <> EqualStateB def
+R4505:4506 CP.comparators <> s1:66 var
+R4508:4509 CP.comparators <> s2:67 var
+R4513:4523 CP.comparators <> EqualStateB def
+R4525:4526 CP.comparators <> s2:67 var
+R4528:4529 CP.comparators <> s1:66 var
+R4546:4556 CP.comparators <> EqualStateB def
+R4646:4665 CP.comparators <> TEqualNatCommutative thm
+R4646:4665 CP.comparators <> TEqualNatCommutative thm
+R4646:4665 CP.comparators <> TEqualNatCommutative thm
+prf 4695:4716 <> TEqualTermBCommutative
+R4734:4739 CP.cPSystems <> g_term ind
+binder 4727:4728 <> t1:68
+binder 4730:4731 <> t2:69
+R4759:4761 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4743:4752 CP.comparators <> EqualTermB def
+R4754:4755 CP.comparators <> t1:68 var
+R4757:4758 CP.comparators <> t2:69 var
+R4762:4771 CP.comparators <> EqualTermB def
+R4773:4774 CP.comparators <> t2:69 var
+R4776:4777 CP.comparators <> t1:68 var
+R4846:4855 CP.comparators <> EqualTermB def
+R4866:4885 CP.comparators <> TEqualNatCommutative thm
+R4866:4885 CP.comparators <> TEqualNatCommutative thm
+R4866:4885 CP.comparators <> TEqualNatCommutative thm
+R4908:4917 CP.comparators <> EqualTermB def
+R4928:4949 CP.comparators <> TEqualAtomBCommutative thm
+R4928:4949 CP.comparators <> TEqualAtomBCommutative thm
+R4928:4949 CP.comparators <> TEqualAtomBCommutative thm
+prf 5319:5343 <> TEqualTermBagBCommutative
+R5361:5370 CP.cPSystems <> g_multiset def
+binder 5354:5355 <> m1:70
+binder 5357:5358 <> m2:71
+R5393:5395 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5374:5386 CP.comparators <> EqualTermBagB def
+R5388:5389 CP.comparators <> m1:70 var
+R5391:5392 CP.comparators <> m2:71 var
+R5396:5408 CP.comparators <> EqualTermBagB def
+R5410:5411 CP.comparators <> m2:71 var
+R5413:5414 CP.comparators <> m1:70 var
+R5431:5443 CP.comparators <> EqualTermBagB def
+R5514:5535 CP.comparators <> TEqualTermBCommutative prfax
+R5514:5535 CP.comparators <> TEqualTermBCommutative prfax
+R5514:5535 CP.comparators <> TEqualTermBCommutative prfax
+prf 5579:5608 <> TEqualCPSystemConfBCommutative
+R5630:5642 CP.cPSystems <> cPsystem_conf ind
+binder 5619:5622 <> sys1:72
+binder 5624:5627 <> sys2:73
+R5684:5686 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5647:5673 CP.comparators <> EqualCPSystemConfigurationB def
+R5675:5678 CP.comparators <> sys1:72 var
+R5680:5683 CP.comparators <> sys2:73 var
+R5687:5713 CP.comparators <> EqualCPSystemConfigurationB def
+R5715:5718 CP.comparators <> sys2:73 var
+R5720:5723 CP.comparators <> sys1:72 var
+R5804:5828 CP.comparators <> TEqualTermBagBCommutative thm
+R5804:5828 CP.comparators <> TEqualTermBagBCommutative thm
+R5804:5828 CP.comparators <> TEqualTermBagBCommutative thm
+R5839:5861 CP.comparators <> TEqualStateBCommutative thm
+R5839:5861 CP.comparators <> TEqualStateBCommutative thm
+R5839:5861 CP.comparators <> TEqualStateBCommutative thm
+prf 5891:5910 <> TEqualAtomBReflexive
+R5925:5928 CP.cPSystems <> atom ind
+binder 5921:5922 <> a1:74
+R5948:5950 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5932:5941 CP.comparators <> EqualAtomB def
+R5943:5944 CP.comparators <> a1:74 var
+R5946:5947 CP.comparators <> a1:74 var
+R5951:5954 Coq.Init.Datatypes <> true constr
+prf 6009:6030 <> EqualAtomBagBReflexive
+R6045:6047 CP.cPSystems <> bag def
+R6049:6052 CP.cPSystems <> atom ind
+binder 6041:6042 <> b1:75
+R6075:6077 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6056:6068 CP.comparators <> EqualAtomBagB def
+R6070:6071 CP.comparators <> b1:75 var
+R6073:6074 CP.comparators <> b1:75 var
+R6078:6081 Coq.Init.Datatypes <> true constr
+R6132:6144 CP.comparators <> EqualAtomBagB def
+R6162:6181 CP.comparators <> TEqualAtomBReflexive thm
+R6162:6181 CP.comparators <> TEqualAtomBReflexive thm
+R6162:6181 CP.comparators <> TEqualAtomBReflexive thm
+R6192:6204 CP.comparators <> EqualAtomBagB def
+prf 6256:6276 <> TEqualStateBReflexive
+R6291:6295 CP.cPSystems <> state ind
+binder 6287:6288 <> s1:76
+R6316:6318 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6299:6309 CP.comparators <> EqualStateB def
+R6311:6312 CP.comparators <> s1:76 var
+R6314:6315 CP.comparators <> s1:76 var
+R6319:6322 Coq.Init.Datatypes <> true constr
+R6339:6349 CP.comparators <> EqualStateB def
+prf 6478:6497 <> TEqualTermBReflexive
+R6512:6517 CP.cPSystems <> g_term ind
+binder 6508:6509 <> t1:77
+R6537:6539 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6521:6530 CP.comparators <> EqualTermB def
+R6532:6533 CP.comparators <> t1:77 var
+R6535:6536 CP.comparators <> t1:77 var
+R6540:6543 Coq.Init.Datatypes <> true constr
+prf 6887:6908 <> EqualTermBagBReflexive
+R6923:6932 CP.cPSystems <> g_multiset def
+binder 6919:6920 <> m1:78
+R6955:6957 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6936:6948 CP.comparators <> EqualTermBagB def
+R6950:6951 CP.comparators <> m1:78 var
+R6953:6954 CP.comparators <> m1:78 var
+R6958:6961 Coq.Init.Datatypes <> true constr
+R7014:7026 CP.comparators <> EqualTermBagB def
+R7044:7063 CP.comparators <> TEqualTermBReflexive prfax
+R7044:7063 CP.comparators <> TEqualTermBReflexive prfax
+R7044:7063 CP.comparators <> TEqualTermBReflexive prfax
+R7080:7092 CP.comparators <> EqualTermBagB def
+prf 7144:7171 <> TEqualCPSystemConfBReflexive
+R7188:7200 CP.cPSystems <> cPsystem_conf ind
+binder 7182:7185 <> sys1:79
+R7241:7243 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7204:7230 CP.comparators <> EqualCPSystemConfigurationB def
+R7232:7235 CP.comparators <> sys1:79 var
+R7237:7240 CP.comparators <> sys1:79 var
+R7244:7247 Coq.Init.Datatypes <> true constr
+R7322:7342 CP.comparators <> TEqualStateBReflexive thm
+R7322:7342 CP.comparators <> TEqualStateBReflexive thm
+R7322:7342 CP.comparators <> TEqualStateBReflexive thm
+R7353:7374 CP.comparators <> EqualTermBagBReflexive thm
+R7353:7374 CP.comparators <> EqualTermBagBReflexive thm
+R7353:7374 CP.comparators <> EqualTermBagBReflexive thm
+prf 7404:7427 <> TLessThanAtomBTransitive
+R7448:7451 CP.cPSystems <> atom ind
+binder 7438:7439 <> a1:80
+binder 7441:7442 <> a2:81
+binder 7444:7445 <> a3:82
+R7511:7515 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7481:7484 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7474:7476 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7455:7467 CP.comparators <> LessThanAtomB def
+R7469:7470 CP.comparators <> a1:80 var
+R7472:7473 CP.comparators <> a2:81 var
+R7477:7480 Coq.Init.Datatypes <> true constr
+R7504:7506 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7485:7497 CP.comparators <> LessThanAtomB def
+R7499:7500 CP.comparators <> a2:81 var
+R7502:7503 CP.comparators <> a3:82 var
+R7507:7510 Coq.Init.Datatypes <> true constr
+R7535:7537 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7516:7528 CP.comparators <> LessThanAtomB def
+R7530:7531 CP.comparators <> a1:80 var
+R7533:7534 CP.comparators <> a3:82 var
+R7538:7541 Coq.Init.Datatypes <> true constr

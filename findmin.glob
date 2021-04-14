@@ -1,0 +1,246 @@
+DIGEST 73c49040a9b06f5cd9011cc8ce950fad
+FCP.findmin
+R23:32 CP.operations <> <> lib
+R50:57 Coq.Arith.PeanoNat <> <> lib
+def 166:167 <> a1
+R173:178 CP.cPSystems <> :::x_'@num'_x not
+R172:172 CP.cPSystems <> a constr
+def 193:194 <> a2
+R200:205 CP.cPSystems <> :::x_'@num'_x not
+R199:199 CP.cPSystems <> a constr
+def 220:221 <> a3
+R227:232 CP.cPSystems <> :::x_'@num'_x not
+R226:226 CP.cPSystems <> a constr
+def 247:248 <> a4
+R254:259 CP.cPSystems <> :::x_'@num'_x not
+R253:253 CP.cPSystems <> a constr
+def 275:280 <> cPsys1
+R285:290 CP.cPSystems <> cP_sys constr
+R293:293 CP.cPSystems <> s constr
+R298:298 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R301:301 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R304:304 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R307:307 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R310:310 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R299:300 CP.findmin <> a1 def
+R302:303 CP.findmin <> a2 def
+R305:306 CP.findmin <> a3 def
+R308:309 CP.findmin <> a4 def
+def 325:329 <> MakeB
+R336:341 CP.cPSystems <> g_term ind
+binder 332:333 <> t1:1
+R346:351 CP.cPSystems <> g_term ind
+R364:365 CP.findmin <> t1:1 var
+R377:382 CP.cPSystems <> :::x_'@num'_x not
+R376:376 CP.cPSystems <> a constr
+R390:395 CP.cPSystems <> :::x_'@num'_x not
+R389:389 CP.cPSystems <> b constr
+R408:411 CP.cPSystems <> Atom constr
+R413:413 CP.cPSystems <> e constr
+def 434:438 <> Rule1
+R445:457 CP.cPSystems <> cPsystem_conf ind
+binder 441:443 <> sys:3
+R462:474 CP.cPSystems <> cPsystem_conf ind
+R487:489 CP.findmin <> sys:3 var
+R502:507 CP.cPSystems <> cP_sys constr
+R510:510 CP.cPSystems <> s constr
+R524:530 CP.operations <> NewConf def
+R533:533 CP.cPSystems <> s constr
+R539:539 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R556:560 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R540:543 CP.operations <> BMap def
+R545:549 CP.findmin <> MakeB def
+R578:580 CP.findmin <> sys:3 var
+def 775:785 <> BNotGreater
+R792:801 CP.cPSystems <> g_multiset def
+binder 788:789 <> m1:5
+R809:814 CP.cPSystems <> g_term ind
+binder 805:806 <> t1:6
+R819:822 Coq.Init.Datatypes <> bool ind
+R839:840 CP.findmin <> m1:5 var
+R835:836 CP.findmin <> t1:6 var
+R853:858 CP.cPSystems <> :::x_'@num'_x not
+R852:852 CP.cPSystems <> b constr
+R872:875 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R864:869 CP.cPSystems <> :::x_'@num'_x not
+R863:863 CP.cPSystems <> a constr
+R892:896 Coq.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R930:934 Coq.Init.Datatypes <> false constr
+R906:916 CP.findmin <> BNotGreater:7 def
+R921:922 CP.findmin <> t1:6 var
+R945:948 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R955:965 CP.findmin <> BNotGreater:7 def
+R970:971 CP.findmin <> t1:6 var
+R986:989 Coq.Init.Datatypes <> true constr
+def 1010:1014 <> Rule2
+R1021:1033 CP.cPSystems <> cPsystem_conf ind
+binder 1017:1019 <> sys:10
+R1038:1050 CP.cPSystems <> cPsystem_conf ind
+R1063:1065 CP.findmin <> sys:10 var
+R1078:1083 CP.cPSystems <> cP_sys constr
+R1086:1086 CP.cPSystems <> s constr
+R1100:1106 CP.operations <> NewConf def
+R1109:1109 CP.cPSystems <> s constr
+R1115:1121 CP.operations <> BFilter def
+R1124:1134 CP.findmin <> BNotGreater def
+R1160:1162 CP.findmin <> sys:10 var
+def 1378:1383 <> cPsys2
+R1388:1392 CP.findmin <> Rule1 def
+R1394:1399 CP.findmin <> cPsys1 def
+def 1413:1418 <> cPsys3
+R1423:1427 CP.findmin <> Rule2 def
+R1429:1434 CP.findmin <> cPsys2 def
+R1445:1450 CP.findmin <> cPsys1 def
+R1461:1466 CP.findmin <> cPsys2 def
+R1477:1482 CP.findmin <> cPsys3 def
+prf 1492:1515 <> SystemHaltsAfterTwoSteps
+R1531:1543 CP.cPSystems <> cPsystem_conf ind
+binder 1526:1528 <> sys:12
+R1548:1567 CP.operations <> SystemIsTerminatedRS def
+R1570:1574 CP.findmin <> Rule2 def
+R1577:1581 CP.findmin <> Rule1 def
+R1583:1585 CP.findmin <> sys:12 var
+R1589:1589 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1595:1596 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1602:1602 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1590:1594 CP.findmin <> Rule1 def
+R1597:1601 CP.findmin <> Rule2 def
+R1619:1638 CP.operations <> SystemIsTerminatedRS def
+R1648:1660 CP.operations <> ApplyARuleset def
+def 1764:1767 <> GetB
+R1774:1786 CP.cPSystems <> cPsystem_conf ind
+binder 1770:1772 <> sys:13
+R1791:1793 Coq.Init.Datatypes <> nat ind
+R1806:1808 CP.findmin <> sys:13 var
+R1819:1824 CP.cPSystems <> cP_sys constr
+R1827:1827 CP.cPSystems <> s constr
+R1842:1845 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1834:1839 CP.cPSystems <> :::x_'@num'_x not
+R1833:1833 CP.cPSystems <> b constr
+prf 1884:1893 <> LETrivial1
+R1908:1910 Coq.Init.Datatypes <> nat ind
+binder 1904:1905 <> x1:15
+R1923:1925 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1916:1920 Coq.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R1914:1915 CP.findmin <> x1:15 var
+R1921:1922 CP.findmin <> x1:15 var
+R1926:1929 Coq.Init.Datatypes <> true constr
+prf 2036:2045 <> LETrivial2
+R2063:2065 Coq.Init.Datatypes <> nat ind
+binder 2056:2057 <> x1:16
+binder 2059:2060 <> x2:17
+R2069:2069 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2083:2087 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2097:2097 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2074:2078 Coq.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R2070:2070 Coq.Init.Datatypes <> S constr
+R2072:2073 CP.findmin <> x1:16 var
+R2079:2079 Coq.Init.Datatypes <> S constr
+R2081:2082 CP.findmin <> x2:17 var
+R2090:2094 Coq.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R2088:2089 CP.findmin <> x1:16 var
+R2095:2096 CP.findmin <> x2:17 var
+prf 2139:2148 <> LETrivial3
+R2166:2168 Coq.Init.Datatypes <> nat ind
+binder 2159:2160 <> x1:18
+binder 2162:2163 <> x2:19
+R2191:2194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2172:2172 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2182:2185 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2175:2179 Coq.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R2173:2174 CP.findmin <> x1:18 var
+R2180:2181 CP.findmin <> x2:19 var
+R2186:2190 Coq.Init.Datatypes <> false constr
+R2195:2195 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2205:2208 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2198:2202 Coq.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R2196:2197 CP.findmin <> x2:19 var
+R2203:2204 CP.findmin <> x1:18 var
+R2209:2212 Coq.Init.Datatypes <> true constr
+prf 2302:2312 <> MinTrivial1
+R2330:2332 Coq.Init.Datatypes <> nat ind
+binder 2323:2324 <> x1:20
+binder 2326:2327 <> x2:21
+R2336:2336 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2355:2360 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2375:2375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2337:2337 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2347:2350 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2340:2344 Coq.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R2338:2339 CP.findmin <> x1:20 var
+R2345:2346 CP.findmin <> x2:21 var
+R2351:2354 Coq.Init.Datatypes <> true constr
+R2363:2365 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2361:2362 CP.findmin <> x1:20 var
+R2366:2368 Coq.Init.Nat <> min def
+R2370:2371 CP.findmin <> x1:20 var
+R2373:2374 CP.findmin <> x2:21 var
+prf 2510:2522 <> SystemCorrect
+R2540:2542 Coq.Init.Datatypes <> nat ind
+binder 2533:2534 <> x1:22
+binder 2536:2537 <> x2:23
+R2604:2606 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2546:2549 CP.findmin <> GetB def
+R2552:2556 CP.findmin <> Rule2 def
+R2559:2563 CP.findmin <> Rule1 def
+R2566:2571 CP.cPSystems <> cP_sys constr
+R2574:2574 CP.cPSystems <> s constr
+R2579:2579 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2589:2590 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2600:2600 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2581:2586 CP.cPSystems <> :::x_'@num'_x not
+R2580:2580 CP.cPSystems <> a constr
+R2587:2588 CP.findmin <> x1:22 var
+R2592:2597 CP.cPSystems <> :::x_'@num'_x not
+R2591:2591 CP.cPSystems <> a constr
+R2598:2599 CP.findmin <> x2:23 var
+R2607:2609 Coq.Init.Nat <> min def
+R2611:2612 CP.findmin <> x1:22 var
+R2614:2615 CP.findmin <> x2:23 var
+R2645:2649 Coq.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R2645:2649 Coq.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R2686:2695 CP.findmin <> LETrivial1 thm
+R2710:2719 CP.findmin <> LETrivial2 thm
+R2686:2695 CP.findmin <> LETrivial1 thm
+R2686:2695 CP.findmin <> LETrivial1 thm
+R2710:2719 CP.findmin <> LETrivial2 thm
+R2745:2755 CP.findmin <> MinTrivial1 thm
+R2745:2755 CP.findmin <> MinTrivial1 thm
+R2804:2808 Coq.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R2804:2808 Coq.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R2852:2861 CP.findmin <> LETrivial1 thm
+R2876:2885 CP.findmin <> LETrivial2 thm
+R2852:2861 CP.findmin <> LETrivial1 thm
+R2852:2861 CP.findmin <> LETrivial1 thm
+R2876:2885 CP.findmin <> LETrivial2 thm
+R2852:2861 CP.findmin <> LETrivial1 thm
+R2852:2861 CP.findmin <> LETrivial1 thm
+R2876:2885 CP.findmin <> LETrivial2 thm
+R2852:2861 CP.findmin <> LETrivial1 thm
+R2876:2885 CP.findmin <> LETrivial2 thm
+R2930:2941 Coq.Arith.PeanoNat Nat min_comm thm
+R2930:2941 Coq.Arith.PeanoNat Nat min_comm thm
+R2930:2941 Coq.Arith.PeanoNat Nat min_comm thm
+R2950:2960 CP.findmin <> MinTrivial1 thm
+R2950:2960 CP.findmin <> MinTrivial1 thm
+R3005:3014 CP.findmin <> LETrivial3 thm
+R3005:3014 CP.findmin <> LETrivial3 thm
+R3005:3014 CP.findmin <> LETrivial3 thm
+R3005:3014 CP.findmin <> LETrivial3 thm
+prf 3078:3092 <> S3IsTermination
+R3108:3120 CP.cPSystems <> cPsystem_conf ind
+binder 3103:3105 <> sys:24
+R3145:3148 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3139:3141 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3124:3134 CP.operations <> SystemState def
+R3136:3138 CP.findmin <> sys:24 var
+R3142:3142 CP.cPSystems <> s constr
+R3149:3168 CP.operations <> SystemIsTerminatedRS def
+R3170:3172 CP.findmin <> sys:24 var
+R3174:3174 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3180:3181 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3187:3187 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3175:3179 CP.findmin <> Rule1 def
+R3182:3186 CP.findmin <> Rule2 def
+R3204:3223 CP.operations <> SystemIsTerminatedRS def
+R3233:3245 CP.operations <> ApplyARuleset def

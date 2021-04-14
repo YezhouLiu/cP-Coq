@@ -1,0 +1,573 @@
+DIGEST bfe660dd91dc0914ded48e475b9d62c7
+FCP.operations
+R23:33 CP.comparators <> <> lib
+def 56:69 <> AddItemOrdered
+binder 72:72 <> X:1
+R86:86 CP.operations <> X:1 var
+binder 82:83 <> x1:2
+R94:96 CP.cPSystems <> bag def
+R98:98 CP.operations <> X:1 var
+binder 90:91 <> b1:3
+R114:115 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R113:113 CP.operations <> X:1 var
+R117:118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R116:116 CP.operations <> X:1 var
+R119:122 Coq.Init.Datatypes <> bool ind
+binder 102:110 <> less_than:4
+R127:129 CP.cPSystems <> bag def
+R131:131 CP.operations <> X:1 var
+R144:145 CP.operations <> b1:3 var
+R159:162 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R177:185 CP.operations <> less_than:4 var
+R187:188 CP.operations <> x1:2 var
+R218:222 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R253:253 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R223:236 CP.operations <> AddItemOrdered:5 def
+R244:252 CP.operations <> less_than:4 var
+R238:239 CP.operations <> x1:2 var
+R200:203 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R198:199 CP.operations <> x1:2 var
+R204:205 CP.operations <> b1:3 var
+R264:264 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R267:267 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R265:266 CP.operations <> x1:2 var
+def 286:300 <> AddItemsOrdered
+binder 303:303 <> X:7
+R320:322 CP.cPSystems <> bag def
+R324:324 CP.operations <> X:7 var
+binder 313:314 <> b1:8
+binder 316:317 <> b2:9
+R340:341 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R339:339 CP.operations <> X:7 var
+R343:344 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R342:342 CP.operations <> X:7 var
+R345:348 Coq.Init.Datatypes <> bool ind
+binder 328:336 <> less_than:10
+R353:355 CP.cPSystems <> bag def
+R357:357 CP.operations <> X:7 var
+R370:371 CP.operations <> b1:8 var
+R385:388 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R400:414 CP.operations <> AddItemsOrdered:11 def
+R452:460 CP.operations <> less_than:10 var
+R420:433 CP.operations <> AddItemOrdered def
+R441:449 CP.operations <> less_than:10 var
+R438:439 CP.operations <> b2:9 var
+R471:472 CP.operations <> b2:9 var
+def 530:536 <> AddTerm
+R543:548 CP.cPSystems <> g_term ind
+binder 539:540 <> t1:13
+R556:561 CP.cPSystems <> g_term ind
+binder 552:553 <> t2:14
+R566:571 CP.cPSystems <> g_term ind
+R584:585 CP.operations <> t1:13 var
+R596:599 CP.cPSystems <> Term constr
+R610:613 CP.cPSystems <> Term constr
+R619:632 CP.operations <> AddItemOrdered def
+R640:652 CP.comparators <> LessThanTermB def
+R634:635 CP.operations <> t2:14 var
+R699:700 CP.operations <> t1:13 var
+def 804:811 <> AddTerms
+R818:823 CP.cPSystems <> g_term ind
+binder 814:815 <> t1:16
+R831:840 CP.cPSystems <> g_multiset def
+binder 827:828 <> m1:17
+R845:850 CP.cPSystems <> g_term ind
+R863:864 CP.operations <> t1:16 var
+R875:878 CP.cPSystems <> Term constr
+R889:892 CP.cPSystems <> Term constr
+R898:912 CP.operations <> AddItemsOrdered def
+R920:932 CP.comparators <> LessThanTermB def
+R914:915 CP.operations <> m1:17 var
+R944:945 CP.operations <> t1:16 var
+def 966:973 <> Subterms
+R980:985 CP.cPSystems <> g_term ind
+binder 976:977 <> t1:19
+R990:999 CP.cPSystems <> g_multiset def
+R1012:1013 CP.operations <> t1:19 var
+R1024:1027 CP.cPSystems <> Term constr
+R1049:1051 Coq.Init.Datatypes <> nil constr
+def 1101:1107 <> BFilter
+binder 1110:1110 <> X:21
+R1128:1131 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1127:1127 CP.operations <> X:21 var
+R1132:1135 Coq.Init.Datatypes <> bool ind
+binder 1120:1124 <> test1:22
+R1143:1145 CP.cPSystems <> bag def
+R1147:1147 CP.operations <> X:21 var
+binder 1139:1140 <> b1:23
+R1152:1154 CP.cPSystems <> bag def
+R1156:1156 CP.operations <> X:21 var
+R1169:1170 CP.operations <> b1:23 var
+R1181:1183 Coq.Init.Datatypes <> nil constr
+R1188:1190 Coq.Init.Datatypes <> nil constr
+R1198:1201 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1216:1220 CP.operations <> test1:22 var
+R1262:1268 CP.operations <> BFilter:24 def
+R1270:1274 CP.operations <> test1:22 var
+R1232:1235 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1236:1242 CP.operations <> BFilter:24 def
+R1244:1248 CP.operations <> test1:22 var
+def 1296:1299 <> BMap
+binder 1302:1302 <> X:26
+binder 1304:1304 <> Y:27
+R1319:1320 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1318:1318 CP.operations <> X:26 var
+R1321:1321 CP.operations <> Y:27 var
+binder 1314:1315 <> f1:28
+R1329:1331 CP.cPSystems <> bag def
+R1333:1333 CP.operations <> X:26 var
+binder 1325:1326 <> b1:29
+R1338:1340 CP.cPSystems <> bag def
+R1342:1342 CP.operations <> Y:27 var
+R1355:1356 CP.operations <> b1:29 var
+R1367:1369 Coq.Init.Datatypes <> nil constr
+R1374:1376 Coq.Init.Datatypes <> nil constr
+R1384:1387 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1394:1394 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1400:1405 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1416:1416 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1395:1396 CP.operations <> f1:28 var
+R1406:1409 CP.operations <> BMap:30 def
+R1411:1412 CP.operations <> f1:28 var
+def 1435:1439 <> BFold
+binder 1442:1442 <> X:32
+binder 1444:1444 <> Y:33
+R1459:1460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1458:1458 CP.operations <> X:32 var
+R1462:1463 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1461:1461 CP.operations <> Y:33 var
+R1464:1464 CP.operations <> Y:33 var
+binder 1454:1455 <> f1:34
+R1472:1474 CP.cPSystems <> bag def
+R1476:1476 CP.operations <> X:32 var
+binder 1468:1469 <> b1:35
+R1484:1484 CP.operations <> Y:33 var
+binder 1480:1481 <> y1:36
+R1488:1488 CP.operations <> Y:33 var
+R1501:1502 CP.operations <> b1:35 var
+R1513:1515 Coq.Init.Datatypes <> nil constr
+R1520:1521 CP.operations <> y1:36 var
+R1529:1532 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1540:1541 CP.operations <> f1:34 var
+R1548:1552 CP.operations <> BFold:37 def
+R1560:1561 CP.operations <> y1:36 var
+R1554:1555 CP.operations <> f1:34 var
+def 1590:1599 <> TermInBagB
+R1606:1611 CP.cPSystems <> g_term ind
+binder 1602:1603 <> t1:39
+R1619:1628 CP.cPSystems <> g_multiset def
+binder 1615:1616 <> m1:40
+R1633:1636 Coq.Init.Datatypes <> bool ind
+R1649:1650 CP.operations <> m1:40 var
+R1663:1666 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1681:1690 CP.comparators <> EqualTermB def
+R1692:1693 CP.operations <> t1:39 var
+R1717:1726 CP.operations <> TermInBagB:41 def
+R1728:1729 CP.operations <> t1:39 var
+R1703:1706 Coq.Init.Datatypes <> true constr
+R1743:1747 Coq.Init.Datatypes <> false constr
+def 1766:1776 <> RemoveATerm
+R1783:1788 CP.cPSystems <> g_term ind
+binder 1779:1780 <> t1:43
+R1796:1805 CP.cPSystems <> g_multiset def
+binder 1792:1793 <> m1:44
+R1809:1818 CP.cPSystems <> g_multiset def
+R1831:1832 CP.operations <> m1:44 var
+R1843:1845 Coq.Init.Datatypes <> nil constr
+R1850:1852 Coq.Init.Datatypes <> nil constr
+R1860:1863 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1878:1887 CP.comparators <> EqualTermB def
+R1889:1890 CP.operations <> t1:43 var
+R1914:1918 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1936:1936 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1919:1929 CP.operations <> RemoveATerm:45 def
+R1931:1932 CP.operations <> t1:43 var
+def 1955:1965 <> RemoveTerms
+R1975:1984 CP.cPSystems <> g_multiset def
+binder 1968:1969 <> m1:47
+binder 1971:1972 <> m2:48
+R1988:1997 CP.cPSystems <> g_multiset def
+R2010:2011 CP.operations <> m1:47 var
+R2022:2024 Coq.Init.Datatypes <> nil constr
+R2029:2030 CP.operations <> m2:48 var
+R2038:2041 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2048:2058 CP.operations <> RemoveTerms:49 def
+R2064:2074 CP.operations <> RemoveATerm def
+R2079:2080 CP.operations <> m2:48 var
+def 2117:2127 <> SystemState
+R2135:2147 CP.cPSystems <> cPsystem_conf ind
+binder 2130:2132 <> sys:51
+R2151:2155 CP.cPSystems <> state ind
+R2169:2171 CP.operations <> sys:51 var
+R2183:2188 CP.cPSystems <> cP_sys constr
+def 2220:2230 <> ChangeState
+R2237:2241 CP.cPSystems <> state ind
+binder 2233:2234 <> s1:53
+R2250:2262 CP.cPSystems <> cPsystem_conf ind
+binder 2245:2247 <> sys:54
+R2267:2279 CP.cPSystems <> cPsystem_conf ind
+R2292:2294 CP.operations <> sys:54 var
+R2306:2311 CP.cPSystems <> cP_sys constr
+R2321:2326 CP.cPSystems <> cP_sys constr
+R2328:2329 CP.operations <> s1:53 var
+def 2353:2363 <> SystemTerms
+R2371:2383 CP.cPSystems <> cPsystem_conf ind
+binder 2366:2368 <> sys:56
+R2387:2396 CP.cPSystems <> g_multiset def
+R2409:2411 CP.operations <> sys:56 var
+R2423:2428 CP.cPSystems <> cP_sys constr
+def 2460:2471 <> SystemMemory
+R2479:2491 CP.cPSystems <> cPsystem_conf ind
+binder 2474:2476 <> sys:58
+R2495:2497 Coq.Init.Datatypes <> nat ind
+R2510:2512 CP.operations <> sys:58 var
+R2524:2529 CP.cPSystems <> cP_sys constr
+R2539:2544 Coq.Init.Datatypes <> length def
+def 2568:2582 <> SystemTermCount
+R2586:2597 CP.operations <> SystemMemory def
+def 2612:2624 <> TermInSystemB
+R2631:2636 CP.cPSystems <> g_term ind
+binder 2627:2628 <> t1:60
+R2645:2657 CP.cPSystems <> cPsystem_conf ind
+binder 2640:2642 <> sys:61
+R2661:2664 Coq.Init.Datatypes <> bool ind
+R2677:2679 CP.operations <> sys:61 var
+R2690:2695 CP.cPSystems <> cP_sys constr
+R2705:2714 CP.operations <> TermInBagB def
+R2716:2717 CP.operations <> t1:60 var
+def 2741:2752 <> ProduceATerm
+R2759:2764 CP.cPSystems <> g_term ind
+binder 2755:2756 <> t1:63
+R2773:2785 CP.cPSystems <> cPsystem_conf ind
+binder 2768:2770 <> sys:64
+R2790:2802 CP.cPSystems <> cPsystem_conf ind
+R2815:2817 CP.operations <> sys:64 var
+R2828:2833 CP.cPSystems <> cP_sys constr
+R2844:2849 CP.cPSystems <> cP_sys constr
+R2855:2868 CP.operations <> AddItemOrdered def
+R2876:2888 CP.comparators <> LessThanTermB def
+R2870:2871 CP.operations <> t1:63 var
+def 2911:2922 <> ProduceTerms
+R2929:2938 CP.cPSystems <> g_multiset def
+binder 2925:2926 <> m1:66
+R2947:2959 CP.cPSystems <> cPsystem_conf ind
+binder 2942:2944 <> sys:67
+R2963:2975 CP.cPSystems <> cPsystem_conf ind
+R2988:2990 CP.operations <> sys:67 var
+R3001:3006 CP.cPSystems <> cP_sys constr
+R3017:3022 CP.cPSystems <> cP_sys constr
+R3028:3042 CP.operations <> AddItemsOrdered def
+R3050:3062 CP.comparators <> LessThanTermB def
+R3044:3045 CP.operations <> m1:66 var
+def 3084:3095 <> ConsumeATerm
+R3102:3107 CP.cPSystems <> g_term ind
+binder 3098:3099 <> t1:69
+R3116:3128 CP.cPSystems <> cPsystem_conf ind
+binder 3111:3113 <> sys:70
+R3132:3144 CP.cPSystems <> cPsystem_conf ind
+R3157:3159 CP.operations <> sys:70 var
+R3171:3176 CP.cPSystems <> cP_sys constr
+R3187:3192 CP.cPSystems <> cP_sys constr
+R3198:3208 CP.operations <> RemoveATerm def
+R3210:3211 CP.operations <> t1:69 var
+def 3236:3247 <> ConsumeTerms
+R3254:3263 CP.cPSystems <> g_multiset def
+binder 3250:3251 <> m1:72
+R3272:3284 CP.cPSystems <> cPsystem_conf ind
+binder 3267:3269 <> sys:73
+R3288:3300 CP.cPSystems <> cPsystem_conf ind
+R3313:3315 CP.operations <> sys:73 var
+R3327:3332 CP.cPSystems <> cP_sys constr
+R3343:3348 CP.cPSystems <> cP_sys constr
+R3354:3364 CP.operations <> RemoveTerms def
+R3366:3367 CP.operations <> m1:72 var
+def 3392:3406 <> ConsumeAllTerms
+R3414:3426 CP.cPSystems <> cPsystem_conf ind
+binder 3409:3411 <> sys:75
+R3430:3442 CP.cPSystems <> cPsystem_conf ind
+R3455:3457 CP.operations <> sys:75 var
+R3468:3473 CP.cPSystems <> cP_sys constr
+R3483:3488 CP.cPSystems <> cP_sys constr
+R3493:3495 Coq.Init.Datatypes <> nil constr
+def 3516:3522 <> NewConf
+R3527:3532 CP.cPSystems <> cP_sys constr
+def 3547:3559 <> NewConfSorted
+R3566:3570 CP.cPSystems <> state ind
+binder 3562:3563 <> s1:77
+R3581:3590 CP.cPSystems <> g_multiset def
+binder 3574:3575 <> m1:78
+binder 3577:3578 <> m2:79
+R3599:3611 CP.cPSystems <> cPsystem_conf ind
+binder 3594:3596 <> sys:80
+R3619:3629 CP.operations <> ChangeState def
+R3631:3632 CP.operations <> s1:77 var
+R3635:3646 CP.operations <> ProduceTerms def
+R3648:3649 CP.operations <> m1:78 var
+R3652:3663 CP.operations <> ConsumeTerms def
+R3665:3666 CP.operations <> m2:79 var
+R3668:3670 CP.operations <> sys:80 var
+def 3724:3733 <> ApplyARule
+R3741:3753 CP.cPSystems <> cPsystem_conf ind
+binder 3736:3738 <> sys:81
+R3761:3767 CP.cPSystems <> cP_rule def
+binder 3757:3758 <> r1:82
+R3772:3784 CP.cPSystems <> cPsystem_conf ind
+R3791:3792 CP.operations <> r1:82 var
+R3794:3796 CP.operations <> sys:81 var
+def 3810:3822 <> ApplyARuleset
+R3830:3842 CP.cPSystems <> cPsystem_conf ind
+binder 3825:3827 <> sys:83
+R3850:3859 CP.cPSystems <> cP_ruleset def
+binder 3846:3847 <> rs:84
+R3864:3876 CP.cPSystems <> cPsystem_conf ind
+R3889:3890 CP.operations <> rs:84 var
+R3903:3906 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3913:3925 CP.operations <> ApplyARuleset:85 def
+R3931:3933 CP.operations <> sys:83 var
+R3948:3950 CP.operations <> sys:83 var
+def 4044:4064 <> SystemIsTerminatedRSB
+R4072:4084 CP.cPSystems <> cPsystem_conf ind
+binder 4067:4069 <> sys:87
+R4092:4101 CP.cPSystems <> cP_ruleset def
+binder 4088:4089 <> rs:88
+R4106:4109 Coq.Init.Datatypes <> bool ind
+R4116:4142 CP.comparators <> EqualCPSystemConfigurationB def
+R4144:4146 CP.operations <> sys:87 var
+R4149:4161 CP.operations <> ApplyARuleset def
+R4163:4165 CP.operations <> sys:87 var
+R4167:4168 CP.operations <> rs:88 var
+def 4183:4202 <> SystemIsTerminatedRS
+R4210:4222 CP.cPSystems <> cPsystem_conf ind
+binder 4205:4207 <> sys:89
+R4230:4239 CP.cPSystems <> cP_ruleset def
+binder 4226:4227 <> rs:90
+R4257:4259 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4254:4256 CP.operations <> sys:89 var
+R4260:4272 CP.operations <> ApplyARuleset def
+R4274:4276 CP.operations <> sys:89 var
+R4278:4279 CP.operations <> rs:90 var
+def 4293:4312 <> SystemIsTerminatedRB
+R4320:4332 CP.cPSystems <> cPsystem_conf ind
+binder 4315:4317 <> sys:91
+R4340:4346 CP.cPSystems <> cP_rule def
+binder 4336:4337 <> r1:92
+R4351:4354 Coq.Init.Datatypes <> bool ind
+R4361:4387 CP.comparators <> EqualCPSystemConfigurationB def
+R4389:4391 CP.operations <> sys:91 var
+R4394:4395 CP.operations <> r1:92 var
+R4397:4399 CP.operations <> sys:91 var
+def 4414:4432 <> SystemIsTerminatedR
+R4440:4452 CP.cPSystems <> cPsystem_conf ind
+binder 4435:4437 <> sys:93
+R4460:4466 CP.cPSystems <> cP_rule def
+binder 4456:4457 <> r1:94
+R4484:4486 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4481:4483 CP.operations <> sys:93 var
+R4487:4488 CP.operations <> r1:94 var
+R4490:4492 CP.operations <> sys:93 var
+def 4507:4521 <> RuleApplicableB
+R4529:4541 CP.cPSystems <> cPsystem_conf ind
+binder 4524:4526 <> sys:95
+R4549:4555 CP.cPSystems <> cP_rule def
+binder 4545:4546 <> r1:96
+R4560:4563 Coq.Init.Datatypes <> bool ind
+R4570:4573 Coq.Init.Datatypes <> negb def
+R4576:4602 CP.comparators <> EqualCPSystemConfigurationB def
+R4604:4606 CP.operations <> sys:95 var
+R4609:4610 CP.operations <> r1:96 var
+R4612:4614 CP.operations <> sys:95 var
+def 4630:4643 <> RuleApplicable
+R4651:4663 CP.cPSystems <> cPsystem_conf ind
+binder 4646:4648 <> sys:97
+R4671:4677 CP.cPSystems <> cP_rule def
+binder 4667:4668 <> r1:98
+R4695:4698 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4692:4694 CP.operations <> sys:97 var
+R4699:4700 CP.operations <> r1:98 var
+R4702:4704 CP.operations <> sys:97 var
+def 4718:4735 <> RulesetApplicableB
+R4743:4755 CP.cPSystems <> cPsystem_conf ind
+binder 4738:4740 <> sys:99
+R4763:4772 CP.cPSystems <> cP_ruleset def
+binder 4759:4760 <> rs:100
+R4777:4780 Coq.Init.Datatypes <> bool ind
+R4787:4790 Coq.Init.Datatypes <> negb def
+R4793:4819 CP.comparators <> EqualCPSystemConfigurationB def
+R4821:4823 CP.operations <> sys:99 var
+R4826:4838 CP.operations <> ApplyARuleset def
+R4840:4842 CP.operations <> sys:99 var
+R4844:4845 CP.operations <> rs:100 var
+def 4861:4877 <> RulesetApplicable
+R4885:4897 CP.cPSystems <> cPsystem_conf ind
+binder 4880:4882 <> sys:101
+R4905:4914 CP.cPSystems <> cP_ruleset def
+binder 4901:4902 <> rs:102
+R4932:4935 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4929:4931 CP.operations <> sys:101 var
+R4936:4948 CP.operations <> ApplyARuleset def
+R4950:4952 CP.operations <> sys:101 var
+R4954:4955 CP.operations <> rs:102 var
+def 4970:4990 <> RulesetNotApplicableB
+R4995:5015 CP.operations <> SystemIsTerminatedRSB def
+def 5029:5048 <> RulesetNotApplicable
+R5053:5072 CP.operations <> SystemIsTerminatedRS def
+def 5086:5103 <> RuleNotApplicableB
+R5108:5127 CP.operations <> SystemIsTerminatedRB def
+def 5141:5157 <> RuleNotApplicable
+R5162:5180 CP.operations <> SystemIsTerminatedR def
+def 5193:5217 <> SystemConfigurationInBagB
+R5225:5237 CP.cPSystems <> cPsystem_conf ind
+binder 5220:5222 <> sys:103
+R5246:5248 CP.cPSystems <> bag def
+R5250:5262 CP.cPSystems <> cPsystem_conf ind
+binder 5241:5243 <> bs1:104
+R5266:5269 Coq.Init.Datatypes <> bool ind
+R5282:5284 CP.operations <> bs1:104 var
+R5297:5300 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5315:5341 CP.comparators <> EqualCPSystemConfigurationB def
+R5343:5345 CP.operations <> sys:103 var
+R5369:5393 CP.operations <> SystemConfigurationInBagB:105 def
+R5395:5397 CP.operations <> sys:103 var
+R5355:5358 Coq.Init.Datatypes <> true constr
+R5411:5415 Coq.Init.Datatypes <> false constr
+def 5435:5455 <> LoopingCheckWithLimit
+R5463:5475 CP.cPSystems <> cPsystem_conf ind
+binder 5458:5460 <> sys:107
+R5483:5492 CP.cPSystems <> cP_ruleset def
+binder 5479:5480 <> rs:108
+R5501:5503 CP.cPSystems <> bag def
+R5505:5517 CP.cPSystems <> cPsystem_conf ind
+binder 5496:5498 <> bs1:109
+R5529:5531 Coq.Init.Datatypes <> nat ind
+binder 5521:5526 <> limit1:110
+R5535:5538 Coq.Init.Datatypes <> bool ind
+R5551:5556 CP.operations <> limit1:110 var
+R5567:5567 Coq.Init.Datatypes <> S constr
+R5583:5607 CP.operations <> SystemConfigurationInBagB def
+R5609:5611 CP.operations <> sys:107 var
+R5613:5615 CP.operations <> bs1:109 var
+R5637:5657 CP.operations <> LoopingCheckWithLimit:111 def
+R5691:5694 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5686:5686 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R5690:5690 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R5687:5689 CP.operations <> sys:107 var
+R5695:5697 CP.operations <> bs1:109 var
+R5682:5683 CP.operations <> rs:108 var
+R5660:5672 CP.operations <> ApplyARuleset def
+R5674:5676 CP.operations <> sys:107 var
+R5678:5679 CP.operations <> rs:108 var
+R5622:5625 Coq.Init.Datatypes <> true constr
+R5707:5707 Coq.Init.Datatypes <> O constr
+R5712:5716 Coq.Init.Datatypes <> false constr
+def 5749:5761 <> LoopingCheckB
+R5769:5781 CP.cPSystems <> cPsystem_conf ind
+binder 5764:5766 <> sys:113
+R5789:5798 CP.cPSystems <> cP_ruleset def
+binder 5785:5786 <> rs:114
+R5811:5813 Coq.Init.Datatypes <> nat ind
+binder 5803:5808 <> limit1:115
+R5821:5841 CP.operations <> LoopingCheckWithLimit def
+R5843:5845 CP.operations <> sys:113 var
+R5847:5848 CP.operations <> rs:114 var
+R5850:5852 Coq.Init.Datatypes <> nil constr
+R5854:5859 CP.operations <> limit1:115 var
+def 5872:5885 <> DeadlockCheckB
+R5893:5905 CP.cPSystems <> cPsystem_conf ind
+binder 5888:5890 <> sys:116
+R5913:5922 CP.cPSystems <> cP_ruleset def
+binder 5909:5910 <> rs:117
+R5934:5936 Coq.Init.Datatypes <> nat ind
+binder 5926:5931 <> limit1:118
+R5940:5943 Coq.Init.Datatypes <> bool ind
+R5956:5961 CP.operations <> limit1:118 var
+R5972:5972 Coq.Init.Datatypes <> S constr
+R5988:6014 CP.comparators <> EqualCPSystemConfigurationB def
+R6017:6029 CP.operations <> ApplyARuleset def
+R6031:6033 CP.operations <> sys:116 var
+R6035:6036 CP.operations <> rs:117 var
+R6039:6041 CP.operations <> sys:116 var
+R6063:6076 CP.operations <> DeadlockCheckB:119 def
+R6101:6102 CP.operations <> rs:117 var
+R6079:6091 CP.operations <> ApplyARuleset def
+R6093:6095 CP.operations <> sys:116 var
+R6097:6098 CP.operations <> rs:117 var
+R6048:6051 Coq.Init.Datatypes <> true constr
+R6111:6111 Coq.Init.Datatypes <> O constr
+R6116:6120 Coq.Init.Datatypes <> false constr
+def 6155:6163 <> RunNSteps
+R6171:6183 CP.cPSystems <> cPsystem_conf ind
+binder 6166:6168 <> sys:121
+R6191:6200 CP.cPSystems <> cP_ruleset def
+binder 6187:6188 <> rs:122
+R6208:6210 Coq.Init.Datatypes <> nat ind
+binder 6204:6205 <> n1:123
+R6215:6227 CP.cPSystems <> cPsystem_conf ind
+R6240:6241 CP.operations <> n1:123 var
+R6252:6252 Coq.Init.Datatypes <> O constr
+R6257:6259 CP.operations <> sys:121 var
+R6265:6265 Coq.Init.Datatypes <> S constr
+R6273:6281 CP.operations <> RunNSteps:124 def
+R6306:6307 CP.operations <> rs:122 var
+R6284:6296 CP.operations <> ApplyARuleset def
+R6298:6300 CP.operations <> sys:121 var
+R6302:6303 CP.operations <> rs:122 var
+def 6649:6666 <> RunUntilTerminated
+R6674:6686 CP.cPSystems <> cPsystem_conf ind
+binder 6669:6671 <> sys:126
+R6694:6703 CP.cPSystems <> cP_ruleset def
+binder 6690:6691 <> rs:127
+R6715:6717 Coq.Init.Datatypes <> nat ind
+binder 6707:6712 <> limit1:128
+R6722:6734 CP.cPSystems <> cPsystem_conf ind
+R6755:6775 CP.operations <> SystemIsTerminatedRSB def
+R6777:6779 CP.operations <> sys:126 var
+R6781:6782 CP.operations <> rs:127 var
+R6747:6752 CP.operations <> limit1:128 var
+R6793:6793 Coq.Init.Datatypes <> O constr
+R6801:6803 CP.operations <> sys:126 var
+R6812:6815 Coq.Init.Datatypes <> true constr
+R6820:6822 CP.operations <> sys:126 var
+R6828:6828 Coq.Init.Datatypes <> S constr
+R6834:6838 Coq.Init.Datatypes <> false constr
+R6843:6860 CP.operations <> RunUntilTerminated:129 def
+R6885:6886 CP.operations <> rs:127 var
+R6863:6875 CP.operations <> ApplyARuleset def
+R6877:6879 CP.operations <> sys:126 var
+R6881:6882 CP.operations <> rs:127 var
+prf 6907:6928 <> TInequalCPSystemConfB1
+R6950:6962 CP.cPSystems <> cPsystem_conf ind
+binder 6939:6942 <> sys1:131
+binder 6944:6947 <> sys2:132
+R7024:7027 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7016:7018 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6967:6977 CP.comparators <> EqualStateB def
+R6980:6990 CP.operations <> SystemState def
+R6992:6995 CP.operations <> sys1:131 var
+R6999:7009 CP.operations <> SystemState def
+R7011:7014 CP.operations <> sys2:132 var
+R7019:7023 Coq.Init.Datatypes <> false constr
+R7065:7067 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7028:7054 CP.comparators <> EqualCPSystemConfigurationB def
+R7056:7059 CP.operations <> sys1:131 var
+R7061:7064 CP.operations <> sys2:132 var
+R7068:7072 Coq.Init.Datatypes <> false constr
+R7127:7137 CP.operations <> SystemState def
+R7147:7173 CP.comparators <> EqualCPSystemConfigurationB def
+R7184:7194 CP.comparators <> EqualStateB def
+prf 7313:7334 <> TInequalCPSystemConfB2
+R7356:7368 CP.cPSystems <> cPsystem_conf ind
+binder 7345:7348 <> sys1:133
+binder 7350:7353 <> sys2:134
+R7432:7435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7424:7426 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7373:7385 CP.comparators <> EqualTermBagB def
+R7388:7398 CP.operations <> SystemTerms def
+R7400:7403 CP.operations <> sys1:133 var
+R7407:7417 CP.operations <> SystemTerms def
+R7419:7422 CP.operations <> sys2:134 var
+R7427:7431 Coq.Init.Datatypes <> false constr
+R7473:7475 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7436:7462 CP.comparators <> EqualCPSystemConfigurationB def
+R7464:7467 CP.operations <> sys1:133 var
+R7469:7472 CP.operations <> sys2:134 var
+R7476:7480 Coq.Init.Datatypes <> false constr

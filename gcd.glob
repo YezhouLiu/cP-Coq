@@ -1,0 +1,444 @@
+DIGEST 3e71d58e7ee7c5de2a65ddc08b438953
+FCP.gcd
+R23:32 CP.operations <> <> lib
+def 178:179 <> a1
+R185:190 CP.cPSystems <> :::x_'@num'_x not
+R184:184 CP.cPSystems <> a constr
+def 206:207 <> a2
+R213:218 CP.cPSystems <> :::x_'@num'_x not
+R212:212 CP.cPSystems <> a constr
+def 235:240 <> cPsys1
+R245:250 CP.cPSystems <> cP_sys constr
+R253:253 CP.cPSystems <> s constr
+R258:258 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R261:261 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R264:264 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R259:260 CP.gcd <> a1 def
+R262:263 CP.gcd <> a2 def
+def 279:283 <> Rule1
+R290:302 CP.cPSystems <> cPsystem_conf ind
+binder 286:288 <> sys:1
+R307:319 CP.cPSystems <> cPsystem_conf ind
+R332:334 CP.gcd <> sys:1 var
+R347:352 CP.cPSystems <> cP_sys constr
+R355:355 CP.cPSystems <> s constr
+R360:360 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R370:371 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R381:381 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R362:367 CP.cPSystems <> :::x_'@num'_x not
+R361:361 CP.cPSystems <> a constr
+R373:378 CP.cPSystems <> :::x_'@num'_x not
+R372:372 CP.cPSystems <> a constr
+R408:411 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R399:402 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R427:430 Coq.Init.Datatypes <> true constr
+R438:443 CP.cPSystems <> cP_sys constr
+R446:446 CP.cPSystems <> s constr
+R451:451 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R461:462 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R472:473 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R483:483 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R453:458 CP.cPSystems <> :::x_'@num'_x not
+R452:452 CP.cPSystems <> b constr
+R464:469 CP.cPSystems <> :::x_'@num'_x not
+R463:463 CP.cPSystems <> a constr
+R475:480 CP.cPSystems <> :::x_'@num'_x not
+R474:474 CP.cPSystems <> a constr
+R492:496 Coq.Init.Datatypes <> false constr
+R499:502 Coq.Init.Datatypes <> true constr
+R507:512 CP.cPSystems <> cP_sys constr
+R515:515 CP.cPSystems <> s constr
+R520:520 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R530:531 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R541:542 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R552:552 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R522:527 CP.cPSystems <> :::x_'@num'_x not
+R521:521 CP.cPSystems <> b constr
+R533:538 CP.cPSystems <> :::x_'@num'_x not
+R532:532 CP.cPSystems <> a constr
+R544:549 CP.cPSystems <> :::x_'@num'_x not
+R543:543 CP.cPSystems <> a constr
+R561:565 Coq.Init.Datatypes <> false constr
+R568:572 Coq.Init.Datatypes <> false constr
+R577:579 CP.gcd <> sys:1 var
+R600:602 CP.gcd <> sys:1 var
+def 623:627 <> Rule2
+R634:646 CP.cPSystems <> cPsystem_conf ind
+binder 630:632 <> sys:3
+R651:663 CP.cPSystems <> cPsystem_conf ind
+R676:678 CP.gcd <> sys:3 var
+R691:696 CP.cPSystems <> cP_sys constr
+R699:699 CP.cPSystems <> s constr
+R704:704 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R714:715 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R725:725 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R706:711 CP.cPSystems <> :::x_'@num'_x not
+R705:705 CP.cPSystems <> a constr
+R717:722 CP.cPSystems <> :::x_'@num'_x not
+R716:716 CP.cPSystems <> a constr
+R754:757 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R744:747 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R774:778 Coq.Init.Datatypes <> false constr
+R781:784 Coq.Init.Datatypes <> true constr
+R789:794 CP.cPSystems <> cP_sys constr
+R797:797 CP.cPSystems <> s constr
+R802:802 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R812:813 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R828:828 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R804:809 CP.cPSystems <> :::x_'@num'_x not
+R803:803 CP.cPSystems <> a constr
+R815:821 CP.cPSystems <> :::x_'@num'_x not
+R827:827 CP.cPSystems <> :::x_'@num'_x not
+R814:814 CP.cPSystems <> a constr
+R824:824 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R838:842 Coq.Init.Datatypes <> false constr
+R845:849 Coq.Init.Datatypes <> false constr
+R854:859 CP.cPSystems <> cP_sys constr
+R862:862 CP.cPSystems <> s constr
+R867:867 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R882:883 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R893:893 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R869:875 CP.cPSystems <> :::x_'@num'_x not
+R881:881 CP.cPSystems <> :::x_'@num'_x not
+R868:868 CP.cPSystems <> a constr
+R878:878 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R885:890 CP.cPSystems <> :::x_'@num'_x not
+R884:884 CP.cPSystems <> a constr
+R911:913 CP.gcd <> sys:3 var
+R935:937 CP.gcd <> sys:3 var
+def 958:962 <> Rule3
+R969:981 CP.cPSystems <> cPsystem_conf ind
+binder 965:967 <> sys:5
+R986:998 CP.cPSystems <> cPsystem_conf ind
+R1011:1013 CP.gcd <> sys:5 var
+R1026:1031 CP.cPSystems <> cP_sys constr
+R1034:1034 CP.cPSystems <> s constr
+R1039:1039 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1049:1050 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1060:1060 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1041:1046 CP.cPSystems <> :::x_'@num'_x not
+R1040:1040 CP.cPSystems <> a constr
+R1052:1057 CP.cPSystems <> :::x_'@num'_x not
+R1051:1051 CP.cPSystems <> a constr
+R1079:1082 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R1100:1103 Coq.Init.Datatypes <> true constr
+R1108:1113 CP.cPSystems <> cP_sys constr
+R1116:1116 CP.cPSystems <> s constr
+R1121:1121 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1131:1131 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1123:1128 CP.cPSystems <> :::x_'@num'_x not
+R1122:1122 CP.cPSystems <> b constr
+R1141:1145 Coq.Init.Datatypes <> false constr
+R1150:1152 CP.gcd <> sys:5 var
+R1174:1176 CP.gcd <> sys:5 var
+def 1197:1198 <> rs
+R1203:1203 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1209:1210 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1216:1217 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1223:1223 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1204:1208 CP.gcd <> Rule1 def
+R1211:1215 CP.gcd <> Rule2 def
+R1218:1222 CP.gcd <> Rule3 def
+def 1237:1239 <> Run
+R1247:1259 CP.cPSystems <> cPsystem_conf ind
+binder 1242:1244 <> sys:7
+R1263:1275 CP.cPSystems <> cPsystem_conf ind
+R1282:1294 CP.operations <> ApplyARuleset def
+R1296:1298 CP.gcd <> sys:7 var
+R1300:1301 CP.gcd <> rs def
+def 1316:1321 <> cPsys2
+R1326:1328 CP.gcd <> Run def
+R1330:1335 CP.gcd <> cPsys1 def
+def 1349:1354 <> cPsys3
+R1359:1361 CP.gcd <> Run def
+R1363:1368 CP.gcd <> cPsys2 def
+def 1382:1387 <> cPsys4
+R1392:1394 CP.gcd <> Run def
+R1396:1401 CP.gcd <> cPsys3 def
+R1412:1417 CP.gcd <> cPsys1 def
+R1428:1433 CP.gcd <> cPsys2 def
+R1444:1449 CP.gcd <> cPsys3 def
+R1460:1465 CP.gcd <> cPsys4 def
+def 1507:1518 <> MakecPSystem
+R1528:1530 Coq.Init.Datatypes <> nat ind
+binder 1521:1522 <> n1:8
+binder 1524:1525 <> n2:9
+R1535:1547 CP.cPSystems <> cPsystem_conf ind
+R1554:1559 CP.cPSystems <> cP_sys constr
+R1562:1562 CP.cPSystems <> s constr
+R1567:1567 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1577:1578 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1588:1588 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1569:1574 CP.cPSystems <> :::x_'@num'_x not
+R1568:1568 CP.cPSystems <> a constr
+R1575:1576 CP.gcd <> n1:8 var
+R1580:1585 CP.cPSystems <> :::x_'@num'_x not
+R1579:1579 CP.cPSystems <> a constr
+R1586:1587 CP.gcd <> n2:9 var
+def 1603:1608 <> GetGCD
+R1616:1628 CP.cPSystems <> cPsystem_conf ind
+binder 1611:1613 <> sys:10
+R1633:1635 Coq.Init.Datatypes <> nat ind
+R1648:1650 CP.gcd <> sys:10 var
+R1661:1666 CP.cPSystems <> cP_sys constr
+R1673:1676 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1709:1714 CP.cPSystems <> :::x_'@num'_x not
+R1708:1708 CP.cPSystems <> b constr
+def 1775:1777 <> IsA
+R1784:1789 CP.cPSystems <> g_term ind
+binder 1780:1781 <> t1:13
+R1794:1797 Coq.Init.Datatypes <> bool ind
+R1810:1811 CP.gcd <> t1:13 var
+R1822:1825 CP.cPSystems <> Term constr
+R1827:1827 CP.cPSystems <> a constr
+R1834:1837 Coq.Init.Datatypes <> true constr
+R1848:1852 Coq.Init.Datatypes <> false constr
+def 1873:1877 <> FindA
+R1885:1897 CP.cPSystems <> cPsystem_conf ind
+binder 1880:1882 <> sys:15
+R1902:1911 CP.cPSystems <> g_multiset def
+R1918:1924 CP.operations <> BFilter def
+R1931:1941 CP.operations <> SystemTerms def
+R1943:1945 CP.gcd <> sys:15 var
+R1926:1928 CP.gcd <> IsA def
+def 1961:1964 <> GetA
+R1971:1980 CP.cPSystems <> g_multiset def
+binder 1967:1968 <> m1:16
+R1988:1990 Coq.Init.Datatypes <> nat ind
+binder 1984:1985 <> i1:17
+R2008:2009 CP.gcd <> i1:17 var
+R2004:2005 CP.gcd <> m1:16 var
+R2020:2020 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2030:2031 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2033:2033 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2022:2027 CP.cPSystems <> :::x_'@num'_x not
+R2021:2021 CP.cPSystems <> a constr
+R2048:2048 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2050:2051 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2061:2061 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2053:2058 CP.cPSystems <> :::x_'@num'_x not
+R2052:2052 CP.cPSystems <> a constr
+def 2105:2115 <> GetAFromSys
+R2123:2135 CP.cPSystems <> cPsystem_conf ind
+binder 2118:2120 <> sys:20
+R2143:2145 Coq.Init.Datatypes <> nat ind
+binder 2139:2140 <> i1:21
+R2153:2156 CP.gcd <> GetA def
+R2159:2163 CP.gcd <> FindA def
+R2165:2167 CP.gcd <> sys:20 var
+R2170:2171 CP.gcd <> i1:21 var
+R2183:2188 CP.gcd <> cPsys4 def
+R2200:2210 CP.gcd <> GetAFromSys def
+R2212:2217 CP.gcd <> cPsys4 def
+R2232:2237 CP.gcd <> GetGCD def
+R2239:2244 CP.gcd <> cPsys4 def
+prf 2287:2304 <> system_correctness
+R2323:2325 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2308:2313 CP.gcd <> GetGCD def
+R2316:2321 CP.gcd <> cPsys4 def
+R2326:2328 Coq.Init.Nat <> gcd def
+prf 2369:2385 <> system_terminated
+R2388:2407 CP.operations <> SystemIsTerminatedRS def
+R2409:2414 CP.gcd <> cPsys4 def
+R2416:2417 CP.gcd <> rs def
+prf 2452:2474 <> system_terminated_at_s2
+R2495:2497 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2477:2487 CP.operations <> SystemState def
+R2489:2494 CP.gcd <> cPsys4 def
+R2498:2498 CP.cPSystems <> s constr
+prf 2535:2549 <> loopingfreeness
+R2577:2579 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2552:2564 CP.operations <> LoopingCheckB def
+R2566:2571 CP.gcd <> cPsys1 def
+R2573:2574 CP.gcd <> rs def
+R2580:2584 Coq.Init.Datatypes <> false constr
+prf 2619:2634 <> deadlockfreeness
+R2663:2665 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2637:2650 CP.operations <> DeadlockCheckB def
+R2652:2657 CP.gcd <> cPsys1 def
+R2659:2660 CP.gcd <> rs def
+R2666:2670 Coq.Init.Datatypes <> false constr
+prf 2743:2768 <> system_at_s2_is_terminated
+R2784:2796 CP.cPSystems <> cPsystem_conf ind
+binder 2779:2781 <> sys:22
+R2821:2824 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2815:2817 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2800:2810 CP.operations <> SystemState def
+R2812:2814 CP.gcd <> sys:22 var
+R2818:2818 CP.cPSystems <> s constr
+R2825:2844 CP.operations <> SystemIsTerminatedRS def
+R2846:2848 CP.gcd <> sys:22 var
+R2850:2851 CP.gcd <> rs def
+def 2971:2981 <> upper_bound
+prf 3110:3137 <> SystemTerminatesMaxN1N2Plus1
+R3155:3157 Coq.Init.Datatypes <> nat ind
+binder 3148:3149 <> n1:23
+binder 3151:3152 <> n2:24
+R3213:3216 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3185:3188 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3178:3180 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3163:3166 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R3161:3162 CP.gcd <> n1:23 var
+R3167:3177 CP.gcd <> upper_bound def
+R3181:3184 Coq.Init.Datatypes <> true constr
+R3206:3208 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3191:3194 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R3189:3190 CP.gcd <> n2:24 var
+R3195:3205 CP.gcd <> upper_bound def
+R3209:3212 Coq.Init.Datatypes <> true constr
+R3217:3236 CP.operations <> SystemIsTerminatedRS def
+R3239:3247 CP.operations <> RunNSteps def
+R3250:3261 CP.gcd <> MakecPSystem def
+R3263:3264 CP.gcd <> n1:23 var
+R3266:3267 CP.gcd <> n2:24 var
+R3270:3271 CP.gcd <> rs def
+R3274:3274 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3284:3287 Coq.Init.Nat <> ::nat_scope:x_'+'_x not
+R3275:3277 Coq.Init.Nat <> max def
+R3279:3280 CP.gcd <> n1:23 var
+R3282:3283 CP.gcd <> n2:24 var
+R3292:3293 CP.gcd <> rs def
+prf 3491:3503 <> SystemCorrect
+R3521:3523 Coq.Init.Datatypes <> nat ind
+binder 3514:3515 <> n1:25
+binder 3517:3518 <> n2:26
+R3579:3582 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3551:3554 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3544:3546 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3529:3532 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R3527:3528 CP.gcd <> n1:25 var
+R3533:3543 CP.gcd <> upper_bound def
+R3547:3550 Coq.Init.Datatypes <> true constr
+R3572:3574 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3557:3560 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R3555:3556 CP.gcd <> n2:26 var
+R3561:3571 CP.gcd <> upper_bound def
+R3575:3578 Coq.Init.Datatypes <> true constr
+R3646:3648 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3583:3588 CP.gcd <> GetGCD def
+R3591:3608 CP.operations <> RunUntilTerminated def
+R3611:3622 CP.gcd <> MakecPSystem def
+R3624:3625 CP.gcd <> n1:25 var
+R3627:3628 CP.gcd <> n2:26 var
+R3631:3632 CP.gcd <> rs def
+R3634:3644 CP.gcd <> upper_bound def
+R3649:3651 Coq.Init.Nat <> gcd def
+R3653:3654 CP.gcd <> n1:25 var
+R3656:3657 CP.gcd <> n2:26 var
+prf 3874:3902 <> numbers_descrease_nonstrictly
+R3920:3922 Coq.Init.Datatypes <> nat ind
+binder 3913:3914 <> n1:27
+binder 3916:3917 <> n2:28
+R3926:3926 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3994:3997 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3980:3984 Coq.Init.Nat <> ::nat_scope:x_'<=?'_x not
+R3927:3937 CP.gcd <> GetAFromSys def
+R3940:3952 CP.operations <> ApplyARuleset def
+R3955:3966 CP.gcd <> MakecPSystem def
+R3968:3969 CP.gcd <> n1:27 var
+R3971:3972 CP.gcd <> n2:28 var
+R3975:3976 CP.gcd <> rs def
+R3985:3987 Coq.Init.Nat <> max def
+R3989:3990 CP.gcd <> n1:27 var
+R3992:3993 CP.gcd <> n2:28 var
+R3998:4001 Coq.Init.Datatypes <> true constr
+prf 4162:4198 <> numbers_descrease_nonstrictly_bounded
+R4216:4218 Coq.Init.Datatypes <> nat ind
+binder 4209:4210 <> n1:29
+binder 4212:4213 <> n2:30
+R4274:4277 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4246:4249 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4239:4241 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4224:4227 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R4222:4223 CP.gcd <> n1:29 var
+R4228:4238 CP.gcd <> upper_bound def
+R4242:4245 Coq.Init.Datatypes <> true constr
+R4267:4269 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4252:4255 Coq.Init.Nat <> ::nat_scope:x_'<?'_x not
+R4250:4251 CP.gcd <> n2:30 var
+R4256:4266 CP.gcd <> upper_bound def
+R4270:4273 Coq.Init.Datatypes <> true constr
+R4278:4278 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4346:4349 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4332:4336 Coq.Init.Nat <> ::nat_scope:x_'<=?'_x not
+R4279:4289 CP.gcd <> GetAFromSys def
+R4292:4304 CP.operations <> ApplyARuleset def
+R4307:4318 CP.gcd <> MakecPSystem def
+R4320:4321 CP.gcd <> n1:29 var
+R4323:4324 CP.gcd <> n2:30 var
+R4327:4328 CP.gcd <> rs def
+R4337:4339 Coq.Init.Nat <> max def
+R4341:4342 CP.gcd <> n1:29 var
+R4344:4345 CP.gcd <> n2:30 var
+R4350:4353 Coq.Init.Datatypes <> true constr
+prf 4496:4516 <> rule1_only_apply_once
+R4532:4544 CP.cPSystems <> cPsystem_conf ind
+binder 4527:4529 <> sys:31
+R4548:4566 CP.operations <> SystemIsTerminatedR def
+R4569:4573 CP.gcd <> Rule1 def
+R4575:4577 CP.gcd <> sys:31 var
+R4580:4584 CP.gcd <> Rule1 def
+prf 5126:5155 <> rule2_may_apply_multiple_times
+R5158:5165 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5184:5186 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5171:5183 CP.cPSystems <> cPsystem_conf ind
+binder 5166:5168 <> sys:32
+R5187:5189 Coq.Init.Logic <> not def
+R5192:5210 CP.operations <> SystemIsTerminatedR def
+R5213:5217 CP.gcd <> Rule2 def
+R5219:5221 CP.gcd <> sys:32 var
+R5224:5228 CP.gcd <> Rule2 def
+R5247:5251 CP.gcd <> Rule1 def
+R5253:5258 CP.gcd <> cPsys1 def
+R5247:5251 CP.gcd <> Rule1 def
+R5253:5258 CP.gcd <> cPsys1 def
+prf 5297:5304 <> trivial1
+R5319:5321 Coq.Init.Datatypes <> nat ind
+binder 5315:5316 <> n1:33
+R5325:5325 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5334:5337 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5328:5331 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R5326:5327 CP.gcd <> n1:33 var
+R5332:5333 CP.gcd <> n1:33 var
+R5338:5341 Coq.Init.Datatypes <> true constr
+prf 5424:5444 <> rule3_only_apply_once
+R5460:5472 CP.cPSystems <> cPsystem_conf ind
+binder 5455:5457 <> sys:34
+R5508:5511 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5501:5503 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5476:5490 CP.operations <> RuleApplicableB def
+R5492:5494 CP.gcd <> sys:34 var
+R5496:5500 CP.gcd <> Rule3 def
+R5504:5507 Coq.Init.Datatypes <> true constr
+R5512:5530 CP.operations <> SystemIsTerminatedR def
+R5533:5537 CP.gcd <> Rule3 def
+R5539:5541 CP.gcd <> sys:34 var
+R5544:5548 CP.gcd <> Rule3 def
+R5565:5579 CP.operations <> RuleApplicableB def
+R5589:5607 CP.operations <> SystemIsTerminatedR def
+R6111:6115 CP.gcd <> Rule3 def
+R6125:6129 CP.gcd <> Rule3 def
+R6149:6152 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R6149:6152 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R6207:6210 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R6207:6210 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R6272:6275 Coq.Init.Datatypes <> negb def
+R6291:6298 CP.gcd <> trivial1 thm
+R6291:6298 CP.gcd <> trivial1 thm
+R6291:6298 CP.gcd <> trivial1 thm
+R6314:6321 CP.gcd <> trivial1 thm
+R6314:6321 CP.gcd <> trivial1 thm
+R6314:6321 CP.gcd <> trivial1 thm
+prf 6369:6373 <> gcd_0
+R6388:6390 Coq.Init.Datatypes <> nat ind
+binder 6384:6385 <> n1:35
+R6446:6448 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6394:6399 CP.gcd <> GetGCD def
+R6402:6419 CP.operations <> RunUntilTerminated def
+R6422:6433 CP.gcd <> MakecPSystem def
+R6435:6436 CP.gcd <> n1:35 var
+R6441:6442 CP.gcd <> rs def
+R6449:6450 CP.gcd <> n1:35 var
+R6501:6508 CP.gcd <> trivial1 thm
+R6501:6508 CP.gcd <> trivial1 thm
+R6501:6508 CP.gcd <> trivial1 thm
