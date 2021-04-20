@@ -220,19 +220,6 @@ Fixpoint RunUntilTerminated (sys: cPsystem_conf) (rs: cP_ruleset) (limit1: nat) 
   | S n', false => RunUntilTerminated (ApplyARuleset sys rs) rs n'
   end.
 
-Theorem TInequalCPSystemConfB1: forall (sys1 sys2: cPsystem_conf), 
-EqualStateB (SystemState sys1) (SystemState sys2) = false -> EqualCPSystemConfigurationB sys1 sys2 = false.
-Proof. destruct sys1, sys2. destruct s1, s0. unfold SystemState. unfold EqualCPSystemConfigurationB. 
-unfold EqualStateB. intros. destruct n, n0; try discriminate; try reflexivity. simpl. simpl in H. rewrite H.
-reflexivity. Qed.
-
-Theorem TInequalCPSystemConfB2: forall (sys1 sys2: cPsystem_conf), 
-EqualTermBagB (SystemTerms sys1) (SystemTerms sys2) = false -> EqualCPSystemConfigurationB sys1 sys2 = false.
-Proof. intros. destruct sys1, sys2. simpl. simpl in H. rewrite H. destruct s1, s0.
-generalize dependent n0; try induction n; try reflexivity. destruct n0; try reflexivity.
-destruct n0; try reflexivity. simpl. simpl in IHn. rewrite IHn. reflexivity. Qed.
-
-
 
 
 

@@ -1,15 +1,15 @@
 (* cP systems*)
-Require Export Coq.Lists.List.
-Include ListNotations.
+Set Warnings "-notation-overridden,-parsing".
+From Coq Require Import Lists.List.
+Import ListNotations.
 
 Definition bag := list.
 
 Inductive atom :=
   | a | b | c | d | e | f | g | h .
 
-(*for cP rules, not available yet*)
 Inductive variable :=
-  | U | V | W | X | Y | Z .
+  | X | Y | Z | W | U | V.
 
 Definition functor := atom.
 
