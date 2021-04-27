@@ -1,4 +1,6 @@
 From CP Require Export operations.
+From Coq Require Import Lists.List.
+Import ListNotations.
 
 (*
 s0 a(M) ->1 s1 b(c()d(M)e())
@@ -98,7 +100,7 @@ Definition NotB (t1: g_term) : bool :=
 
 Definition Rule4n5 (sys: cPsystem_conf) : cPsystem_conf :=
   match sys with
-  | cP_sys (s 1) terms  => NewConf (s 1) ((BFilter NotB terms) ++ (MakeBAll terms))
+  | cP_sys (s 1) terms  => NewConf (s 1) ((filter NotB terms) ++ (MakeBAll terms))
   | _ => sys
   end.
 

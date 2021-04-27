@@ -1,4 +1,6 @@
 From CP Require Export comparators.
+From Coq Require Import Lists.List.
+Import ListNotations.
 
 (*terms*)
 Fixpoint AddItemOrdered {X: Type} (x1: X) (b1: bag X) (less_than: X->X->bool) : bag X :=
@@ -34,27 +36,6 @@ Definition Subterms (t1: g_term) : g_multiset :=
   match t1 with
   | Term _ x2 => x2
   | _ => nil
-  end.
-
-(*higher-order bag functions*)
-Fixpoint BFilter {X: Type} (test1: X -> bool) (b1: bag X) : bag X :=
-  match b1 with
-  | nil => nil
-  | h1 :: t1 => 
-    if test1 h1 then h1 :: BFilter test1 t1
-    else BFilter test1 t1
-  end.
-
-Fixpoint BMap {X Y: Type} (f1: X->Y) (b1: bag X) : bag Y :=
-  match b1 with
-  | nil => nil
-  | h1 :: t1 => (f1 h1) :: (BMap f1 t1)
-  end.
-
-Fixpoint BFold {X Y: Type} (f1: X->Y->Y) (b1: bag X) (y1: Y): Y :=
-  match b1 with
-  | nil => y1
-  | h1 :: t1 => (f1 h1) (BFold f1 t1 y1)
   end.
 
 (*bags*)
@@ -219,8 +200,6 @@ Fixpoint RunUntilTerminated (sys: cPsystem_conf) (rs: cP_ruleset) (limit1: nat) 
   | _, true => sys
   | S n', false => RunUntilTerminated (ApplyARuleset sys rs) rs n'
   end.
-
-
 
 
 

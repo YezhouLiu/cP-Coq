@@ -1,5 +1,7 @@
 From CP Require Export operations.
+From Coq Require Import Lists.List.
 Require Import PeanoNat.
+Import ListNotations.
 
 (*
 s1 ->+ s2 b(X) | a(X)
@@ -26,14 +28,14 @@ Definition MakeB (t1: g_term) : g_term :=
 
 Definition Rule1 (sys:cPsystem_conf) : cPsystem_conf :=
   match sys with 
-   | cP_sys (s 1) terms => NewConf (s 2) ((BMap MakeB terms) ++ terms)
+   | cP_sys (s 1) terms => NewConf (s 2) ((map MakeB terms) ++ terms)
    | _ => sys
   end.
 
 (*
 Definition Rule1 (sys:cPsystem_conf) : cPsystem_conf :=
   match sys with 
-   | cP_sys (s 1) terms => NewConfSorted (s 2) (BMap MakeB terms) nil sys
+   | cP_sys (s 1) terms => NewConfSorted (s 2) (map MakeB terms) nil sys
    | _ => sys
   end.
 *)
@@ -48,7 +50,7 @@ Fixpoint BNotGreater (m1: g_multiset) (t1: g_term) : bool :=
 
 Definition Rule2 (sys:cPsystem_conf) : cPsystem_conf :=
   match sys with 
-   | cP_sys (s 2) terms => NewConf (s 3) (BFilter (BNotGreater terms) terms)
+   | cP_sys (s 2) terms => NewConf (s 3) (filter (BNotGreater terms) terms)
    | _ => sys
   end.
 

@@ -1,4 +1,6 @@
 From CP Require Export operations.
+From Coq Require Import Lists.List.
+Import ListNotations.
 
 (*
 s1 a() a(X) ->1 s2 b(X)
@@ -81,7 +83,7 @@ Definition IsA (t1: g_term) : bool :=
   end.
 
 Definition FindA (sys: cPsystem_conf) : g_multiset :=
-  BFilter IsA (SystemTerms sys).
+  filter IsA (SystemTerms sys).
 
 Definition GetA (m1: g_multiset) (i1: nat) :=
   match m1, i1 with

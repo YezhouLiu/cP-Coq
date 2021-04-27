@@ -1,5 +1,4 @@
 (* cP systems*)
-Set Warnings "-notation-overridden,-parsing".
 From Coq Require Import Lists.List.
 Import ListNotations.
 

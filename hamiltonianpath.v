@@ -1,4 +1,6 @@
 From CP Require Export operations.
+From Coq Require Import Lists.List.
+Import ListNotations.
 
 (*
 s1 a(a(X)Y) ->1 s2 b(c(Y) d(e(X)d()))
@@ -101,7 +103,7 @@ Definition NotB (t1: g_term) : bool :=
 Definition Rule3n4 (sys: cPsystem_conf) : cPsystem_conf := 
   match sys with 
     | cP_sys (s 2) terms  => 
-      cP_sys (s 2) ((MakeAllS (BFilter IsE terms) terms) ++ (BFilter NotB terms))
+      cP_sys (s 2) ((MakeAllS (filter IsE terms) terms) ++ (filter NotB terms))
     | _ => sys
   end.
 
@@ -184,7 +186,7 @@ Definition IsB (t1: g_term) : bool :=
 
 Definition GetB (sys: cPsystem_conf) : g_term :=
   match sys with
-  | cP_sys _ terms => nth 0 (BFilter IsB terms) (Atom e)
+  | cP_sys _ terms => nth 0 (filter IsB terms) (Atom e)
   end.
 
 (*invariant - in each step, the path length increases until the hamiltonian path is found*)
