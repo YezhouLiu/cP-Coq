@@ -289,7 +289,7 @@ Proof. exists cPsys1. compute. reflexivity. Qed.
 Lemma any_system_at_s1_may_not_be_terminated: exists (sys: cPsystem_conf), SystemState sys = s 1 -> SystemIsTerminatedRSB sys rs = false.
 Proof. exists (Rule1 cPsys1). compute. reflexivity. Qed.
 
-Lemma s2_is_termination: forall (sys: cPsystem_conf), SystemState sys = s 2 -> SystemIsTerminatedRS sys rs.
+Lemma s2_is_a_termination: forall (sys: cPsystem_conf), SystemState sys = s 2 -> SystemIsTerminatedRS sys rs.
 Proof. intros. destruct sys. destruct s1. repeat (try destruct n; try discriminate H; try reflexivity). Qed.
 
 Lemma R1DoesNotAffectSystemTermCount: forall (sys: cPsystem_conf),

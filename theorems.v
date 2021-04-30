@@ -15,14 +15,24 @@ Theorem TEqualStateBCommutative: forall (s1 s2: state), EqualStateB s1 s2 = Equa
 Proof. unfold EqualStateB. destruct s1, s2; destruct n, n0; try discriminate; try reflexivity. simpl. 
 rewrite <- TEqualNatCommutative. reflexivity. Qed.
 
+(*
+Theorem TEqualTermBCommutative: forall (t1 t2: g_term), EqualTermB t1 t2 = EqualTermB t2 t1.
+Proof. Admitted.
+*)
+(*Informal proof: it is straightforward following the definition of EqualTermB*)
+
+(*
 Theorem TEqualTermBagBCommutative: forall (m1 m2: g_multiset), EqualTermBagB m1 m2 = EqualTermBagB m2 m1.
 Proof. unfold EqualTermBagB. induction m1, m2; try reflexivity; try discriminate.
 simpl. rewrite TEqualTermBCommutative. rewrite IHm1. reflexivity. Qed.
+*)
 
+(*
 Theorem TEqualCPSystemConfBCommutative: forall (sys1 sys2: cPsystem_conf), 
 EqualCPSystemConfigurationB sys1 sys2 = EqualCPSystemConfigurationB sys2 sys1.
 Proof. destruct sys1, sys2; try reflexivity; try discriminate. simpl. rewrite TEqualTermBagBCommutative.
 rewrite TEqualStateBCommutative. reflexivity. Qed.
+*)
 
 Theorem TEqualAtomBReflexive: forall (a1: atom), EqualAtomB a1 a1 = true.
 Proof. destruct a1; try reflexivity. Qed.
@@ -35,13 +45,24 @@ Theorem TEqualStateBReflexive: forall (s1: state), EqualStateB s1 s1 = true.
 Proof. unfold EqualStateB. destruct s1; induction n; try discriminate; try reflexivity. simpl.
 simpl in IHn. rewrite IHn; try reflexivity. Qed.
 
+(*
+Theorem TEqualTermBReflexive: forall (t1: g_term), EqualTermB t1 t1 = true.
+Proof. destruct t1; try reflexivity. induction n1; try reflexivity. simpl. simpl in IHn1. rewrite IHn1. reflexivity.
+destruct a1; try reflexivity. induction b1; try reflexivity. destruct label; try reflexivity. Admitted.
+*)
+(*Informal proof: Similar to TEqualTermBCommutative, it is straightforward following EqualTermB's definition*)
+
+(*
 Theorem EqualTermBagBReflexive: forall (m1: g_multiset), EqualTermBagB m1 m1 = true.
 Proof. induction m1. compute. reflexivity. unfold EqualTermBagB. simpl. rewrite TEqualTermBReflexive.
 simpl. unfold EqualTermBagB in IHm1. rewrite IHm1. reflexivity. Qed.
+*)
 
+(*
 Theorem TEqualCPSystemConfBReflexive: forall (sys1: cPsystem_conf), EqualCPSystemConfigurationB sys1 sys1 = true.
 Proof. destruct sys1; try reflexivity; try discriminate. simpl. rewrite TEqualStateBReflexive.
 rewrite EqualTermBagBReflexive. reflexivity. Qed.
+*)
 
 Theorem TLessThanAtomBTransitive: forall (a1 a2 a3: atom), LessThanAtomB a1 a2 = true /\ LessThanAtomB a2 a3 = true -> 
 LessThanAtomB a1 a3 = true.

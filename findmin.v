@@ -105,7 +105,7 @@ try rewrite e1; try rewrite e2). rewrite Nat.min_comm. apply MinTrivial1 in e2.
 rewrite <- e2. reflexivity. rewrite LETrivial3 in e1. discriminate e1. 
 rewrite e2. reflexivity. Qed.
 
-Lemma S3IsTermination: forall (sys: cPsystem_conf), SystemState sys = s 3 ->
+Lemma S3IsATermination: forall (sys: cPsystem_conf), SystemState sys = s 3 ->
 SystemIsTerminatedRS sys [Rule1; Rule2].
 Proof. unfold SystemIsTerminatedRS. unfold ApplyARuleset.
 destruct sys. destruct s1. 
