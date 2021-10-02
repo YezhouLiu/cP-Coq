@@ -61,6 +61,32 @@ Fixpoint RemoveTerms (m1 m2: g_multiset): g_multiset :=
   | h1 :: t1 => RemoveTerms t1 (RemoveATerm h1 m2)
   end.
 
+(*these two functions are built for our cP verifier*)
+Fixpoint AtomCountInMultiset (a1: atom) (m1: g_multiset): nat :=
+  match m1 with
+  | h1 :: t1 => 
+    match h1 with
+    | Atom a2 =>
+      if EqualAtomB a2 a1 then S (AtomCountInMultiset a1 t1)
+      else AtomCountInMultiset a1 t1
+    | _ => AtomCountInMultiset a1 t1
+    end
+  | nil => O
+  end.
+
+Fixpoint AtomBagIn (m1 m2: g_multiset): bool :=
+  match m1 with
+  | h1 :: t1 =>
+    match h1 with
+    | Atom a1 =>
+      if AtomCountInMultiset a1 m1 <=? AtomCountInMultiset a1 m2 then AtomBagIn t1 m2
+      else false
+    | _ => false
+    end
+  | nil => true
+  end.
+  
+
 (*cP systems*)
 Definition SystemState (sys: cPsystem_conf): state := 
   match sys with 
